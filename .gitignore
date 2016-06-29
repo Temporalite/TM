@@ -1,0 +1,13 @@
+ressources/*
+latex/img/*
+latex/TM.aux
+latex/TM.bcf
+latex/TM.blg
+latex/TM.log
+latex/TM.out
+latex/TM.ptc
+latex/TM.toc
+latex/TM.synctex.gz
+latex/TM.run.xml
+expérience/vidéo A.mp4
+expérience/vidéo B.mp4
