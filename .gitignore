@@ -34,3 +34,7 @@ expérience/vidéo B.mp4
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.bbl
+*.aux
+*.fdb_latexmk
+*.fls
