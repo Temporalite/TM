@@ -1,6 +1,5 @@
-ressources/*
-latex/TM.fls
-latex/TM.aux
+
+latex/TM.bbl
 latex/TM.bcf
 latex/TM.blg
 latex/TM.log
@@ -10,9 +9,19 @@ latex/TM.toc
 latex/TM.synctex.gz
 latex/TM.fdb_latexmk
 latex/TM.run.xml
+latex/Output/TM.fls
+latex/Output/TM.aux
+latex/Output/TM.bcf
+latex/Output/TM.blg
+latex/Output/TM.log
+latex/Output/TM.out
+latex/Output/TM.ptc
+latex/Output/TM.toc
+latex/Output/TM.synctex.gz
+latex/Output/TM.fdb_latexmk
+latex/Output/TM.run.xml
 expérience/vidéo A.mp4
 expérience/vidéo B.mp4
-
 *.pdf
 *.zip
 *.log
@@ -23,3 +32,7 @@ expérience/vidéo B.mp4
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.bbl
+*.aux
+*.fdb_latexmk
+*.fls

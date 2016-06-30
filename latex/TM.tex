@@ -37,7 +37,8 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[12pt,fleqn,oneside,openany]{book} % Default font size and left-justified equations
+\documentclass[12pt,fleqn,oneside,openany,]{book} % Default font size and left-justified equations
+
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
 
@@ -112,17 +113,21 @@
 
 \chapterimage{head2.jpg} % Chapter heading image
 
-\chapter{Introduction} \label{chap:introduction}
+
+\chapter{Introduction} \label{cha:introduction}
 \section{Préambule}
 Avant de commencer ce travail, voici quelques mots à propos de ce sujet. J'ai toujours été intéressé par les sciences, c'est d'ailleurs pour cela que j'ai choisi l'option biologie et chimie au gymnase; je voulais aussi exécuter un travail comportant une partie pratique et l'approche expérimentale ainsi que le choix d'un travail de maturité portant sur la biologie me semblaient donc approprié avec mes centres d'intérêts. En plus de cela, le fait que le titre \textit{Neurosciences} soit évasif m'a intéressé car il me garantissait un grande liberté dans le choix du sujet à développer.
 
 Quant à la décision d'étudier la temporalité et plus particulièrement la perception du temps, elle s'explique par le fait que je devais choisir un sujet pour lequel je puisse réaliser une expérience facilement réalisable et avec peu de moyens. Le gymnase du Bugnon ne possédant malheureusement pas d'IRMf, il m'a fallu m'orienter vers une expérience dont les résultats seraient identifiables d'un point de vue extérieur. 
 
 \section{Méthodologie} \label{sec:methodologie}
-Les connaissances acquises au gymnase n'étant pas suffisantes à la réalisation de ce travail, j'ai dû me documenter en empruntant des documents à la bibliothèque cantonale universitaire et celle du gymnase. J'ai aussi profité de ressources en ligne, en particulier l'encyclopédie \textit{Wikipédia} qui m'a permis de cerner mon sujet par son approche généraliste ainsi que divers cours grâce auxquelles j'ai appris à utiliser \LaTeX. 
+Les connaissances acquises au gymnase n'étant pas suffisantes à la réalisation de ce travail, j'ai dû me documenter en empruntant des documents à la bibliothèque cantonale universitaire et celle du gymnase. J'ai aussi profité de ressources en ligne, en particulier l'encyclopédie \textit{Wikipédia} qui m'a permis de cerner mon sujet par son approche généraliste.
 
 Ces premières ressources m'ont servi de base théorique pour la réalisation de ce travail mais une part importante de celui-ci se situe dans l'interprétation des résultats de mon expérience, j'ai alors profité de la méthode utilisée lors de la réalisation des travaux pratiques.
 % DEVELOPER
+
+Au niveau rédactionnel, il m'a semblé important de mettre un soin particulier dans la recherche des outils utilisés pour la réalisation de ce texte. C'est pour cela que j'ai cherché à bien faire les choses. J'ai ainsi appris à utiliser \LaTeX pour rédiger mon manuscrit; cela me garantissait une mise en page soignée et une grande aisance dans la gestion d'un long document, chose qui aurait été plus difficile à obtenir dans un logiciel de traitement de texte tel que Word. J'ai ensuite appris à utiliser Git, un logiciel de gestion de version, pour héberger mon travail sur la plateforme GitHub. Cela m'a permis de travailler sereinement en m'assurant que mon travail soit versionné et facilement récupérable en cas de perte.
+% besoin de changer (meilleur workflow) -> besoin de nouveaux outils. Choix des outils (pour/contre, facilité, utilité). Apprentissage
 
 \section{Problématique} \label{sec:problematique}
 Ma problématique se divise en deux parties auxquelles je répondrai dans un premiers temps de façon théorique, puis par la pratique :
@@ -135,7 +140,8 @@ Ma problématique se divise en deux parties auxquelles je répondrai dans un pre
 \section{Introduction aux neurosciences} \label{sec:introNeuro}
 
 \subsection[Définition]{Définition \cite{wikineuro}} \label{ssec:definition} % définition générale des neurosciences
-Les neurosciences visent à l'étude du système nerveux dans sa globalité, de l'échelle moléculaire à l'étude d'un organe tel que le cerveau, jusqu'à l'ensemble d'un organisme. Plusieurs disciplines se partagent donc ce champ de recherche; l'étude des interactions synaptiques, la compréhension d'un comportement et le développement d'une interface homme-machine appartenant respectivement à la biochimie, aux sciences cognitives et à l'ingéni§erie. Ces différents angles d'approche se divisent ensuite en deux catégories distinctes mais complémentaires : les sciences humaines (cognition, psychologie…) et les sciences dures (biologie, chimie, mathématique…) 
+Les neurosciences visent à l'étude du système nerveux dans sa globalité, de l'échelle moléculaire à l'étude d'un organe tel que le cerveau, jusqu'à l'ensemble d'un organisme. Plusieurs disciplines se partagent donc ce champ de recherche; l'étude des interactions synaptiques, la compréhension d'un comportement et le développement d'une interface homme-machine appartenant respectivement à la biochimie, aux sciences cognitives et à l'ingénierie. Ces différents angles d'approche se divisent ensuite en deux catégories distinctes mais complémentaires : les sciences humaines (cognition, psychologie…) et les sciences dures (biologie, chimie, mathématique…) 
+
 
 Si les neurosciences sont en général associées aux mécanismes neurobiologiques, ce champ de recherche offre des applications dans des domaines aussi divers que l'éducation (pour faciliter l'apprentissage \cite{pedagogie}) ou la justice (des tribunaux américains ont recours à l'IRMf pour démontrer le lien entre des comportements délictueux et des lésions cérébrales bien que cette pratique fasse polémique \cite{justice}).
 
@@ -157,7 +163,8 @@ je pourrai éventuellement mentionner ici certains travaux de maturité
 %----------------------------------------------------------------------------------------
 \chapterimage{band1.png}
 
-\chapter{\'Etude expérimentale} \label{chap:etudeExp}
+\chapter{\'Etude expérimentale} \label{cha:etudeExp}
+
 
 \section{But de l'expérience}
 La perception du temps étant subjective, cette expérience vise à déterminer s'il est possible de l'influencer. Il y a bien évidemment de multiples pistes à explorer pour tenter cela et il ne s'agira pas de répondre à la problématique de façon exhaustive mais plutôt d'effectuer une expérience permettant d'y apporter des éléments de réponse. 
@@ -183,12 +190,12 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 
 \subsection{méthode} \label{ssec:methode}
 \begin{enumerate}
-	\item Déterminer deux groupes égaux de sujets pour la suite de l'expérience.
+	\item Chercher assez de personnes pour pouvoir effectuer l'expérience et leur expliquer qu'elle est assez courte, en restant évasif, s'ils demandent sa durée. Déterminer deux groupes égaux de sujets pour la suite de l'expérimentation.
 	\item Faire entrer les sujets du premier groupe, leur distribuer à chacun une page de sudoku et leur expliquer que l'expérience porte sur l'attention sans donner plus d'indications. 
-	% dire qu'ils peuvent dessiner
 	% expliquer pourquoi on lur dit pas le sujet
+	% dire qu'ils peuvent dessiner
 	\item Commencer la lecture du premier film et leur indiquer qu'il peuvent commencer leur série de sudoku. % expliquer vlc
-	\item À la fin de la  vidéo, leur distribuer les formulaires qu'ils devront remplir et récupérer les sudoku.
+	\item À la fin de la vidéo, leur distribuer les formulaires qu'ils devront remplir et récupérer les sudoku.
 	\item Répéter les étapes précédentes avec le second groupe et la vidéo ennuyante.
 	\item Jeter les sudoku.
 \end{enumerate}
@@ -199,7 +206,7 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 
 \begin{table}[h]
 	\centering
-	\caption{Expérience ennuyante (5 min 20 s)} \label{tab:expA}
+	\caption{Expérience ennuyante (5 min 20 s)} \label{tbl:expA}
 	\begin{tabular}{@{}lc@{}}
 		\toprule 
 		\multicolumn{1}{@{}c@{}}{Nom} & Temps perçu {[}min{]}\\ \midrule
@@ -224,7 +231,7 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 
 \begin{table}[h]
 	\centering
-	\caption{Expérience intéressante (5 min 30 s)} \label{tab:expB}
+	\caption{Expérience intéressante (5 min 30 s)} \label{tbl:expB}
 	\begin{tabular}{@{}lc@{}}
 		\toprule
 		\multicolumn{1}{@{}c@{}}{Nom} & Temps perçu {[}min{}] \\ \midrule
@@ -254,7 +261,7 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 
 \begin{table}[h!]
 	\centering
-	\caption{Analyse des résultats} \label{tab:analyse}
+	\caption{Analyse des résultats} \label{tbl:analyse}
 	\begin{tabular}{@{}lcc@{}}
 		\toprule
 		\multicolumn{3}{r@{}}{Expérience} \\ 
@@ -300,7 +307,7 @@ Je tiens finalement à remercier toutes les personnes sans lesquelles ce travail
 \chapterimage{boat.png}
 \appendix
 
-\chapter{Annexes} \label{chap:annexes}
+\chapter{Annexes} \label{cha:annexes}
 \section*{Expérience 1}
 \addcontentsline{toc}{section}{Expérience 1}
 
