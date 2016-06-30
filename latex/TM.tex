@@ -37,11 +37,9 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[12pt,fleqn,oneside]{book} % Default font size and left-justified equations
+\documentclass[12pt,fleqn,oneside,openany]{book} % Default font size and left-justified equations
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
-
-\let\cleardoublepage\clearpage % supprime les pages blanches
 
 \begin{document}
 
@@ -92,7 +90,7 @@
 \noindent Le modèle \emph{The Legrand Orange Book} distribuée par \href{legrand.mathias@gmail.com}{Mathias Legrand}
  selon la license CC BY-NC-SA 3.0 \href{https://creativecommons.org/licenses/by-nc-sa/3.0/}{ (\texttt{https://creativecommons.org/licenses/by-nc-sa/3.0/})} a été utilisé et modifié pour la mise en page de ce travail. \\ % License information
 
-\noindent \textit{Imprimé en septembre 2016} % Printing/edition date
+\noindent \textit{Imprimé en octobre 2016} % Printing/edition date
 
 %----------------------------------------------------------------------------------------
 %	Sommaire
@@ -114,19 +112,19 @@
 
 \chapterimage{head2.jpg} % Chapter heading image
 
-\chapter{Introduction}
+\chapter{Introduction} \label{chap:introduction}
 \section{Préambule}
 Avant de commencer ce travail, voici quelques mots à propos de ce sujet. J'ai toujours été intéressé par les sciences, c'est d'ailleurs pour cela que j'ai choisi l'option biologie et chimie au gymnase; je voulais aussi exécuter un travail comportant une partie pratique et l'approche expérimentale ainsi que le choix d'un travail de maturité portant sur la biologie me semblaient donc approprié avec mes centres d'intérêts. En plus de cela, le fait que le titre \textit{Neurosciences} soit évasif m'a intéressé car il me garantissait un grande liberté dans le choix du sujet à développer.
 
 Quant à la décision d'étudier la temporalité et plus particulièrement la perception du temps, elle s'explique par le fait que je devais choisir un sujet pour lequel je puisse réaliser une expérience facilement réalisable et avec peu de moyens. Le gymnase du Bugnon ne possédant malheureusement pas d'IRMf, il m'a fallu m'orienter vers une expérience dont les résultats seraient identifiables d'un point de vue extérieur. 
 
-\section{Méthodologie}
+\section{Méthodologie} \label{sec:methodologie}
 Les connaissances acquises au gymnase n'étant pas suffisantes à la réalisation de ce travail, j'ai dû me documenter en empruntant des documents à la bibliothèque cantonale universitaire et celle du gymnase. J'ai aussi profité de ressources en ligne, en particulier l'encyclopédie \textit{Wikipédia} qui m'a permis de cerner mon sujet par son approche généraliste ainsi que divers cours grâce auxquelles j'ai appris à utiliser \LaTeX. 
 
 Ces premières ressources m'ont servi de base théorique pour la réalisation de ce travail mais une part importante de celui-ci se situe dans l'interprétation des résultats de mon expérience, j'ai alors profité de la méthode utilisée lors de la réalisation des travaux pratiques.
 % DEVELOPER
 
-\section{Problématique}
+\section{Problématique} \label{sec:problematique}
 Ma problématique se divise en deux parties auxquelles je répondrai dans un premiers temps de façon théorique, puis par la pratique :
 
 \paragraph{Comment la temporalité est-elle perçue par les humains ?} Nous voyons avec nos yeux, sentons avec notre nez et écoutons avec nos oreilles. S'il parait évident que nous avons des organes dédiés à certains sens, il est cependant plus difficile de comprendre comment nous percevons le temps, car ce n'est pas une chose que l'on peut observer en tant que tel. Cette partie sera étudiée en préparation de l'expérience. 
@@ -134,19 +132,19 @@ Ma problématique se divise en deux parties auxquelles je répondrai dans un pre
 \paragraph{Peut-on l'influencer ? Si c'est le cas, dans quelle mesure est-ce possible ? } Cette question constituera le cœur de mon expérience. Je pourrai y répondre en analysant les résultats obtenus. 
 
 
-\section{Introduction aux neurosciences}
+\section{Introduction aux neurosciences} \label{sec:introNeuro}
 
-\subsection[Définition]{Définition \cite{wikineuro}} % définition générale des neurosciences
+\subsection[Définition]{Définition \cite{wikineuro}} \label{ssec:definition} % définition générale des neurosciences
 Les neurosciences visent à l'étude du système nerveux dans sa globalité, de l'échelle moléculaire à l'étude d'un organe tel que le cerveau, jusqu'à l'ensemble d'un organisme. Plusieurs disciplines se partagent donc ce champ de recherche; l'étude des interactions synaptiques, la compréhension d'un comportement et le développement d'une interface homme-machine appartenant respectivement à la biochimie, aux sciences cognitives et à l'ingéni§erie. Ces différents angles d'approche se divisent ensuite en deux catégories distinctes mais complémentaires : les sciences humaines (cognition, psychologie…) et les sciences dures (biologie, chimie, mathématique…) 
 
 Si les neurosciences sont en général associées aux mécanismes neurobiologiques, ce champ de recherche offre des applications dans des domaines aussi divers que l'éducation (pour faciliter l'apprentissage \cite{pedagogie}) ou la justice (des tribunaux américains ont recours à l'IRMf pour démontrer le lien entre des comportements délictueux et des lésions cérébrales bien que cette pratique fasse polémique \cite{justice}).
 
-\subsection[La temporalité]{La temporalité \cite{reptemps}}  % définition générale des moyens pour étudier la temporalité, puis ceux que je pourrais/vais employer
+\subsection[La temporalité]{La temporalité \cite{reptemps}} \label{ssec:temporalite} % définition générale des moyens pour étudier la temporalité, puis ceux que je pourrais/vais employer
 L'homme est capable de percevoir le temps de façon générale en se référant à ce qui a déjà été vécu, ce qui est vécu et ce qui le sera. Ces notions de passé, présent et futur étant de nature imprécise, l'homme à développé un système d'unités temporelles pour pouvoir ordonner le temps. En se basant sur des cycles réguliers tels que l'alternance entre le jour et la nuit ou le passage d'un électron d'un niveau énergétique à un autre, il est possible de définir le temps de manière objective. 
 
 Au niveau cérébral, la perception du temps est liée à diverses facultés. En effet, il est indispensable d'emmagasiner, de conserver et de récupérer des souvenirs pour se référer au passé. Il faut ainsi être capable de prévoir ou d'imaginer ce qui va se passer dans l'avenir pour appréhender le futur. Cette perception peut être déformée par les émotions, le temps semble par exemple s'écouler plus lentement lorsque l'on traverse une dépression \cite{emotiontemps}. 
 
-\section{\'Etude de la littérature existante} 
+\section{\'Etude de la littérature existante} \label{sec:etudeLit}
 
 \begin{remark}
 je pourrai éventuellement mentionner ici certains travaux de maturité
@@ -159,7 +157,7 @@ je pourrai éventuellement mentionner ici certains travaux de maturité
 %----------------------------------------------------------------------------------------
 \chapterimage{band1.png}
 
-\chapter{\'Etude expérimentale}
+\chapter{\'Etude expérimentale} \label{chap:etudeExp}
 
 \section{But de l'expérience}
 La perception du temps étant subjective, cette expérience vise à déterminer s'il est possible de l'influencer. Il y a bien évidemment de multiples pistes à explorer pour tenter cela et il ne s'agira pas de répondre à la problématique de façon exhaustive mais plutôt d'effectuer une expérience permettant d'y apporter des éléments de réponse. 
@@ -170,24 +168,25 @@ Il s'agira en l'occurrence de remplir un sudoku ou de dessiner sur la feuille lo
 
 % ORDRE matériel (sudoku et questionnaire enannexe) mérhode résultats
 
-\section{Définition du protocole}
+\section{Définition du protocole} \label{sec:DefinitionProto}
 
-\subsection{Préparation}
+\subsection{Préparation} \label{ssec:preparation}
 Il est nécessaire de préparer un certain nombre de choses avant l'expérimentation proprement dite :
 
 \begin{description}
 	\item[Environ trente sujets] Il faut un nombre assez important de participants pour pouvoir analyser leur réponses. Bien que le nombre minimum de sujets pour établir des statistiques lors d'une expérience soit de 8 par groupe\footnote{Selon M. [jesaisplussonnom], expert lors de la présntation d'un TM sur les souvenirs simulés}, il est préférable d'en avoir une trentaine au total. Il faut aussi tenir compte de la capacité des salles du gymanase qui atteint rarement plus de 25 places, auquel cas la totalité des tables sont occupées, mettant ainsi certains participants dans une position inconfortable pour voir le film. Le nombre de participants est ainsi fixé à 16 personnes par groupe, le double du minimum.
 	\item[Une salle] Elle doit être assez grande pour accueillir tous les participants, être le plus neutre possible et se situer dans une partie calme du gymnase pour éviter toute distraction. Elle doit disposer d'un projecteur avec un système de sonorisation et les éventuelles horloges sont démontées avant le début de l'expérience.
-	\item[Un sudoku] Il faut préparer un sudoku de faible difficulté pour que tous les participants soient sur un pied d'égalité. Il est distribué à tous les cobayes qui doivent le remplir pendant que le film est projeté. Sa fonction première est de 
-	Il sert à concentrer tous les participants sur le même problème, pour tenter de les induire dans un état d'esprit commun. 
+	\item[Un sudoku] Il faut préparer un sudoku de faible difficulté pour que tous les participants soient sur un pied d'égalité. Il est distribué à tous les cobayes qui doivent le remplir pendant que le film est projeté. Son rôle principal est de faire croire aux participants que le but de l'expérience est de réaliser deux tâches en même temps, il est en effet impossible de concentrer son attention sur le film et le sudoku. Il sert ensuite à concentrer tous les participants sur le même problème, pour tenter de les induire dans un état d'esprit commun afin de normaliser les résultats.
 	\item[Deux films] Il faut qu'ils soient de même durée mais de nature très différentes car ce seront eux qui influenceront les sujets. Le premier doit être intéressant tandis que le deuxième doit être ennuyeux. Ils doivent être courts, puisqu'il est difficile de motiver quelqu'un à participer si l'expérience est longue. Le choix de ces films doit en outre être judicieux, car c'est à travers eux que l'expérimentateur risque d'introduire des biais expérimentaux, s'il sélectionne des vidéos n'étant pas considérés comme intéressantes ou ennuyeuses par les participants. La vidéo ennuyante est un extrait d'une vidéo dans laquelle des voitures roulent sous un pont. La caméra est fixe, il fait nuit et la musique d'ambiance est répétitive, au même titre que la vidéo. L'extrait utilisé pour la seconde partie de l'expérience est opposé au précédent car il met en scène une interview de Sylvain Durif de façon dynamique; l'entretient se déroule à plusieurs endroits et la caméra est mobile. Les questions et réponses apportent une dynamique opposée à la première vidéo, le côté saugrenu de l'intervenant étant l'aspact le plus important dans le fait qu'il paraisse drôle et interessant.
 	\item[Des formulaires] Ils doivent poser des questions en rapport avec la pseudo expérience et comporter une question à laquelle le sujet doit estimer le temps écoulé à chaque partie de l'expérience.
 \end{description}
 
-\subsection{méthode}
+\subsection{méthode} \label{ssec:methode}
 \begin{enumerate}
 	\item Déterminer deux groupes égaux de sujets pour la suite de l'expérience.
-	\item Faire entrer les sujets du premier groupe, leur distribuer à chacun une page de sudoku et leur expliquer que l'expérience porte sur l'attention sans donner plus d'indications. % dire qu'ils peuvent dessiner
+	\item Faire entrer les sujets du premier groupe, leur distribuer à chacun une page de sudoku et leur expliquer que l'expérience porte sur l'attention sans donner plus d'indications. 
+	% dire qu'ils peuvent dessiner
+	% expliquer pourquoi on lur dit pas le sujet
 	\item Commencer la lecture du premier film et leur indiquer qu'il peuvent commencer leur série de sudoku. % expliquer vlc
 	\item À la fin de la  vidéo, leur distribuer les formulaires qu'ils devront remplir et récupérer les sudoku.
 	\item Répéter les étapes précédentes avec le second groupe et la vidéo ennuyante.
@@ -196,13 +195,11 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 
 %PLUS PRECIS !
 
-\section{Résultats}
-\section{Résultats bruts}
+\section{Résultats} \label{sec:resultats}
 
 \begin{table}[h]
 	\centering
-	\caption{Expérience ennuyante (5 min 20 s)}
-	\label{expA}
+	\caption{Expérience ennuyante (5 min 20 s)} \label{tab:expA}
 	\begin{tabular}{@{}lc@{}}
 		\toprule 
 		\multicolumn{1}{@{}c@{}}{Nom} & Temps perçu {[}min{]}\\ \midrule
@@ -227,8 +224,7 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 
 \begin{table}[h]
 	\centering
-	\caption{Expérience intéressante (5 min 30 s)}
-	\label{expB}
+	\caption{Expérience intéressante (5 min 30 s)} \label{tab:expB}
 	\begin{tabular}{@{}lc@{}}
 		\toprule
 		\multicolumn{1}{@{}c@{}}{Nom} & Temps perçu {[}min{}] \\ \midrule
@@ -252,14 +248,13 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 \end{table}
 \clearpage 
 
-\section{Analyse}
+\section{Analyse} \label{sec:analyse}
 
-\subsection{Analyse critique}
+\subsection{Analyse critique} \label{ssec:analyseCrit}
 
 \begin{table}[h!]
 	\centering
-	\caption{Analyse des résultats}
-	\label{analyse}
+	\caption{Analyse des résultats} \label{tab:analyse}
 	\begin{tabular}{@{}lcc@{}}
 		\toprule
 		\multicolumn{3}{r@{}}{Expérience} \\ 
@@ -283,16 +278,16 @@ De façon générale, le sodoku a été choisi comme tâche à réaliser lors l'
 Ensuite, il est difficile de tirer des conclusions à partir d'échantillons aussi petits. Cette expérience dépend de divers facteurs et devrait être effectuée sur un échantillon plus important pour assurer la puissance statistique de ses résultats.
 Il est aussi possible que la durée des vidéos ait été trop courte pour que les participants réfléchissent à sa durée. Il est probable que certains d'entre-eux aient considéré que le temps était court et aient répondu 5 minutes de la même manière que l'on répond « J'arrive dans 5 minutes. » pour signifier que l'on arrive bientôt sans pour autant être précis. 
 
-\subsection{Analyse des résultats}
+\subsection{Analyse des résultats} \label{ssec:analyseResult}
 Il est intéressant de constater qu'en moyenne, les temps perçus sont supérieurs à la durée réelle de l'expérience. Il y a cependant une différence entre les deux; il apparait que le temps a semblé passer plus lentement lorsque la vidéo ennuyante a été projetée. Cette dernière à en effet causé une différence de 35 \% par rapport au temps de référence. La vidéo intéressante provoque quant à elle une augmentation de 9,7 \% du temps perçu par rapport à sa durée réelle.
 
 Il y donc une différence de 25,3 \% entre les deux temps perçus. Nous avons précédemment discuté des biais pouvant affecter ce résultat, il est donc à considérer avec prudence. 
 
 \newpage
-\section{Réponse à la problématique}
+\section{Réponse à la problématique} \label{sec:reponseProb}
 
 \newpage
-\section{Conclusion}
+\section{Conclusion} \label{sec:conclusion}
 % conclusion du travail
 
 % remerciements
@@ -305,14 +300,14 @@ Je tiens finalement à remercier toutes les personnes sans lesquelles ce travail
 \chapterimage{boat.png}
 \appendix
 
-\chapter{Annexes}
+\chapter{Annexes} \label{chap:annexes}
 \section*{Expérience 1}
 \addcontentsline{toc}{section}{Expérience 1}
 
 \subsection*{Sudoku} \label{sec:Sudoku}
 \addcontentsline{toc}{subsection}{Sudoku}
 \begin{figure}[htp] \centering{
-		\includegraphics[trim=40 360 40 75, clip, width=\textwidth]{exp/Sudoku}}
+		\includegraphics[trim=40 360 40 75, clip, width=\textwidth]{exp/Sudoku}} % gauche bas droite haut
 	\caption{Sudoku distribué lors de l'expérience}
 \end{figure}  
 
@@ -320,13 +315,13 @@ Je tiens finalement à remercier toutes les personnes sans lesquelles ce travail
 \subsection*{Questionnaires} \label{sec:Questionnaires}
 \addcontentsline{toc}{subsection}{Questionnaires}
 \begin{figure}[htp] \centering{
-		\includegraphics[trim=40 310 40 25,clip, width=\textwidth]{exp/QuestA}}
+		\includegraphics[trim=40 310 40 0,clip, width=\textwidth]{exp/QuestA}}
 	\caption{Questionnaire distribué lors de la première expérience (A)}
 \end{figure}
 
 \newpage
 \begin{figure}[htp] \centering{
-		\includegraphics[trim= 40 300 40 25,clip, width=\textwidth]{exp/QuestB}}
+		\includegraphics[trim= 40 274.6 40 0,clip, width=\textwidth]{exp/QuestB}}
 	\caption{Questionnaire distribué lors de la première expérience (B)}
 \end{figure}
 
