@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The Legrand Orange Book
 % LaTeX Template
@@ -8,7 +9,7 @@
 %
 % Original author:
 % Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
-% Vel (vel@latextemplates.com)
+% Vel (vel@latextemplates.com)% 
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -39,8 +40,9 @@
 
 \documentclass[12pt,fleqn,oneside,openany,]{book} % Default font size and left-justified equations
 
-
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+%----------------------------------------------------------------------------------------
 
 \begin{document}
 
@@ -113,10 +115,9 @@
 
 \chapterimage{head2.jpg} % Chapter heading image
 
-
 \chapter{Introduction} \label{cha:introduction}
 \section{Préambule}
-Avant de commencer ce travail, voici quelques mots à propos de ce sujet. J'ai toujours été intéressé par les sciences, c'est d'ailleurs pour cela que j'ai choisi l'option biologie et chimie au gymnase; je voulais aussi exécuter un travail comportant une partie pratique et l'approche expérimentale ainsi que le choix d'un travail de maturité portant sur la biologie me semblaient donc approprié avec mes centres d'intérêts. En plus de cela, le fait que le titre \textit{Neurosciences} soit évasif m'a intéressé car il me garantissait un grande liberté dans le choix du sujet à développer.
+Avant de commencer ce travail, voici quelques mots à propos de ce sujet. J'ai toujours été intéressé par les sciences, c'est d'ailleurs pour cela que j'ai choisi l'option biologie et chimie au gymnase; je voulais exécuter un travail comportant une partie pratique et l'approche expérimentale ainsi que le choix d'un travail de maturité portant sur la biologie me semblaient donc approprié avec mes centres d'intérêts. En plus de cela, le fait que le titre \textit{Neurosciences} soit évasif m'a intéressé car il me garantissait un grande liberté dans le choix du sujet à développer.
 
 Quant à la décision d'étudier la temporalité et plus particulièrement la perception du temps, elle s'explique par le fait que je devais choisir un sujet pour lequel je puisse réaliser une expérience facilement réalisable et avec peu de moyens. Le gymnase du Bugnon ne possédant malheureusement pas d'IRMf, il m'a fallu m'orienter vers une expérience dont les résultats seraient identifiables d'un point de vue extérieur. 
 
@@ -138,6 +139,9 @@ Ma problématique se divise en deux parties auxquelles je répondrai dans un pre
 
 
 \section{Introduction aux neurosciences} \label{sec:introNeuro}
+\begin{remark}
+	Cette partie, réalisée avec la volontée de restituer le plus fidèlement les sources dont elle est issue, n'est qu'un assemblage de connaissance glanées au travers de diverses recherches et lectures : un patchwork de périphrases. Elle n'est donc en aucun cas le fruit de mon travail.
+\end{remark}
 
 \subsection[Définition]{Définition \cite{wikineuro}} \label{ssec:definition} % définition générale des neurosciences
 Les neurosciences visent à l'étude du système nerveux dans sa globalité, de l'échelle moléculaire à l'étude d'un organe tel que le cerveau, jusqu'à l'ensemble d'un organisme. Plusieurs disciplines se partagent donc ce champ de recherche; l'étude des interactions synaptiques, la compréhension d'un comportement et le développement d'une interface homme-machine appartenant respectivement à la biochimie, aux sciences cognitives et à l'ingénierie. Ces différents angles d'approche se divisent ensuite en deux catégories distinctes mais complémentaires : les sciences humaines (cognition, psychologie…) et les sciences dures (biologie, chimie, mathématique…) 
@@ -150,14 +154,6 @@ L'homme est capable de percevoir le temps de façon générale en se référant 
 
 Au niveau cérébral, la perception du temps est liée à diverses facultés. En effet, il est indispensable d'emmagasiner, de conserver et de récupérer des souvenirs pour se référer au passé. Il faut ainsi être capable de prévoir ou d'imaginer ce qui va se passer dans l'avenir pour appréhender le futur. Cette perception peut être déformée par les émotions, le temps semble par exemple s'écouler plus lentement lorsque l'on traverse une dépression \cite{emotiontemps}. 
 
-\section{\'Etude de la littérature existante} \label{sec:etudeLit}
-
-\begin{remark}
-je pourrai éventuellement mentionner ici certains travaux de maturité
-%PAS UTILE A mettre dans l'intro.
-\end{remark}
-
-
 %----------------------------------------------------------------------------------------
 %	Expérience
 %----------------------------------------------------------------------------------------
@@ -166,12 +162,12 @@ je pourrai éventuellement mentionner ici certains travaux de maturité
 \chapter{\'Etude expérimentale} \label{cha:etudeExp}
 
 
-\section{But de l'expérience}
-La perception du temps étant subjective, cette expérience vise à déterminer s'il est possible de l'influencer. Il y a bien évidemment de multiples pistes à explorer pour tenter cela et il ne s'agira pas de répondre à la problématique de façon exhaustive mais plutôt d'effectuer une expérience permettant d'y apporter des éléments de réponse. 
+\section{But} \label{sec:butExp}
+La perception du temps étant subjective, ce chapitre vise à déterminer s'il est possible de l'influencer. Il y a bien évidemment de multiples pistes à explorer pour tenter cela et il ne s'agira pas de répondre à la problématique de façon exhaustive mais plutôt d'effectuer des expériences permettant d'y apporter des éléments de réponse. 
 
 Pour ce faire, il est demandé à un groupe de personnes ne portant pas de montre d'effectuer une activité qu'ils prennent pour le sujet principal du test afin de ne pas influencer les résultats. Il est ensuite demandé à un autre groupe de répéter la même tâche dans des conditions différentes. Leur estimation du temps écoulé lors de chaque expérience est finalement récoltée individuellement par le biais d'un formulaire pour pouvoir ensuite la comparer à la durée réelle et ainsi déterminer si ces différentes conditions ont joué un rôle dans leur perception temporelle.
 
-Il s'agira en l'occurrence de remplir un sudoku ou de dessiner sur la feuille lors de la projection d'un film tantôt intéressant, tantôt ennuyeux. Le but étant de trouver 
+Il s'agira en l'occurrence de remplir un sudoku ou de dessiner sur la feuille lors de la projection d'un film tantôt intéressant, tantôt ennuyeux. 
 
 % ORDRE matériel (sudoku et questionnaire enannexe) mérhode résultats
 
@@ -183,20 +179,24 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 \begin{description}
 	\item[Environ trente sujets] Il faut un nombre assez important de participants pour pouvoir analyser leur réponses. Bien que le nombre minimum de sujets pour établir des statistiques lors d'une expérience soit de 8 par groupe\footnote{Selon M. [jesaisplussonnom], expert lors de la présntation d'un TM sur les souvenirs simulés}, il est préférable d'en avoir une trentaine au total. Il faut aussi tenir compte de la capacité des salles du gymanase qui atteint rarement plus de 25 places, auquel cas la totalité des tables sont occupées, mettant ainsi certains participants dans une position inconfortable pour voir le film. Le nombre de participants est ainsi fixé à 16 personnes par groupe, le double du minimum.
 	\item[Une salle] Elle doit être assez grande pour accueillir tous les participants, être le plus neutre possible et se situer dans une partie calme du gymnase pour éviter toute distraction. Elle doit disposer d'un projecteur avec un système de sonorisation et les éventuelles horloges sont démontées avant le début de l'expérience.
-	\item[Un sudoku] Il faut préparer un sudoku de faible difficulté pour que tous les participants soient sur un pied d'égalité. Il est distribué à tous les cobayes qui doivent le remplir pendant que le film est projeté. Son rôle principal est de faire croire aux participants que le but de l'expérience est de réaliser deux tâches en même temps, il est en effet impossible de concentrer son attention sur le film et le sudoku. Il sert ensuite à concentrer tous les participants sur le même problème, pour tenter de les induire dans un état d'esprit commun afin de normaliser les résultats.
-	\item[Deux films] Il faut qu'ils soient de même durée mais de nature très différentes car ce seront eux qui influenceront les sujets. Le premier doit être intéressant tandis que le deuxième doit être ennuyeux. Ils doivent être courts, puisqu'il est difficile de motiver quelqu'un à participer si l'expérience est longue. Le choix de ces films doit en outre être judicieux, car c'est à travers eux que l'expérimentateur risque d'introduire des biais expérimentaux, s'il sélectionne des vidéos n'étant pas considérés comme intéressantes ou ennuyeuses par les participants. La vidéo ennuyante est un extrait d'une vidéo dans laquelle des voitures roulent sous un pont. La caméra est fixe, il fait nuit et la musique d'ambiance est répétitive, au même titre que la vidéo. L'extrait utilisé pour la seconde partie de l'expérience est opposé au précédent car il met en scène une interview de Sylvain Durif de façon dynamique; l'entretient se déroule à plusieurs endroits et la caméra est mobile. Les questions et réponses apportent une dynamique opposée à la première vidéo, le côté saugrenu de l'intervenant étant l'aspact le plus important dans le fait qu'il paraisse drôle et interessant.
-	\item[Des formulaires] Ils doivent poser des questions en rapport avec la pseudo expérience et comporter une question à laquelle le sujet doit estimer le temps écoulé à chaque partie de l'expérience.
+	\item[Un sudoku] Il faut préparer un sudoku de faible difficulté pour que tous les participants soient sur un pied d'égalité. Il est distribué à tous les cobayes qui doivent le remplir pendant que le film est projeté. Son rôle principal est de faire croire aux participants que le but de l'expérience est de réaliser deux tâches en même temps, il est en effet impossible de concentrer son attention sur le film et le sudoku. Il sert ensuite à concentrer tous les participants sur le même problème, pour tenter de les induire dans un état d'esprit commun afin de normaliser les résultats. Il est cependant illusoire de penser que la totalité des participants apprécient le sudoku de la même façon. Pour éviter qu'un rejet de cette activité ne perturbe quelqu'un, il faut laisser le choix de dessiner sur la feuille.
+	\item[Deux films] Il faut qu'ils soient de même durée mais de nature très différentes car ce seront eux qui influenceront les sujets. Le premier doit être intéressant tandis que le deuxième doit être ennuyeux. Ils doivent être courts, puisqu'il est difficile de motiver quelqu'un à participer si l'expérience est longue. Le choix de ces films doit en outre être judicieux, car c'est à travers eux que l'expérimentateur risque d'introduire des biais expérimentaux, s'il sélectionne des vidéos n'étant pas considérés comme intéressantes ou ennuyeuses par les participants. 
+
+	La vidéo ennuyante est un extrait d'une vidéo dans laquelle des voitures roulent sous un pont. La caméra est fixe, il fait nuit et la musique d'ambiance est répétitive, au même titre que la vidéo. L'extrait utilisé pour la seconde partie de l'expérience est opposé au précédent car il met en scène une interview de Sylvain Durif de façon dynamique; l'entretient se déroule à plusieurs endroits et la caméra est mobile. Les questions et réponses apportent une dynamique opposée à la première vidéo, le côté saugrenu de l'intervenant étant l'aspact le plus important dans le fait qu'il paraisse drôle et interessant. 
+
+	Il doivent de plus être visionnés sans que la barre d'avancement ne s'affiche à l'écran, pour ne pas révéler leur durée. Pour ce faire, il est possible d'utiliser le logiciel VLC qui permets de glisser sous l'écran la partie affichant les informations temporelles
+	\item[Des formulaires] Ils doivent poser des questions en rapport avec la pseudo expérience. Il y en a un pour chaque vidéo, leur structure est similaire et ils ont en commun la question à laquelle il est demandé d'estimer le temps écoulé durant l'expérience. Le nombre de questions est limité pour laisser aux sujets le temps de se concentrer sur leur réponses dans le but d'éviter qu'ils ne le fassent machinalement.
 \end{description}
 
 \subsection{méthode} \label{ssec:methode}
 \begin{enumerate}
-	\item Chercher assez de personnes pour pouvoir effectuer l'expérience et leur expliquer qu'elle est assez courte, en restant évasif, s'ils demandent sa durée. Déterminer deux groupes égaux de sujets pour la suite de l'expérimentation.
-	\item Faire entrer les sujets du premier groupe, leur distribuer à chacun une page de sudoku et leur expliquer que l'expérience porte sur l'attention sans donner plus d'indications. 
-	% expliquer pourquoi on lur dit pas le sujet
-	% dire qu'ils peuvent dessiner
-	\item Commencer la lecture du premier film et leur indiquer qu'il peuvent commencer leur série de sudoku. % expliquer vlc
-	\item À la fin de la vidéo, leur distribuer les formulaires qu'ils devront remplir et récupérer les sudoku.
-	\item Répéter les étapes précédentes avec le second groupe et la vidéo ennuyante.
+	\item Chercher assez de personnes pour pouvoir effectuer l'expérience et leur expliquer qu'elle est assez courte, en restant évasif s'ils demandent sa durée. Déterminer deux groupes égaux de sujets pour la suite de l'expérimentation.
+	\item Préparer la salle, démonter les horloges et s'assurer que le beamer ansi que le système audio soient allumés et en état de marche. Le film est ouvert en mode plein écran et la barre d'avancement est cachée.
+	\item Faire entrer les sujets du premier groupe, leur distribuer à chacun une page de sudoku. Leur expliquer que l'expérience porte sur l'attention sans donner plus d'indications. 
+	\item Commencer la lecture du premier film (ennuyant) et leur indiquer qu'il peuvent commencer leur sudoku. Il faut ensuite préciser qu'ils ne sont pas obligés de le faire et qu'ils peuvent dessiner à la place. 
+	\item À la fin de la vidéo, préciser que l'expérience est terminée, distribuer le formulaire approprié et récupérer les sudoku.
+	\item Récupérer les formulaires.
+	\item Répéter les étapes précédentes avec le second groupe et la vidéo interessante.
 	\item Jeter les sudoku.
 \end{enumerate}
 
@@ -265,7 +265,7 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 	\begin{tabular}{@{}lcc@{}}
 		\toprule
 		\multicolumn{3}{r@{}}{Expérience} \\ 
-		&        A         &          B    \\                                  \midrule
+		& A & B \\ \midrule
 		Temps perçu minimum {[}minutes{]} & 5,0 & 2,5 \\ 
 		Temps perçu maximum {[}minutes{]} & 10,0 & 12,0 \\ 
 		Temps perçu moyen {[}minutes{]} & 7,2 & 6,0 \\
@@ -285,6 +285,10 @@ De façon générale, le sodoku a été choisi comme tâche à réaliser lors l'
 Ensuite, il est difficile de tirer des conclusions à partir d'échantillons aussi petits. Cette expérience dépend de divers facteurs et devrait être effectuée sur un échantillon plus important pour assurer la puissance statistique de ses résultats.
 Il est aussi possible que la durée des vidéos ait été trop courte pour que les participants réfléchissent à sa durée. Il est probable que certains d'entre-eux aient considéré que le temps était court et aient répondu 5 minutes de la même manière que l'on répond « J'arrive dans 5 minutes. » pour signifier que l'on arrive bientôt sans pour autant être précis. 
 
+% Meme si l'expérience est complexe -> pas le plus simple pour tester mon sujet : on peut imaginer que les sujets réagiseent de manière similaire entre entre les deux (difficulté à se concentrer, pas interessés par le sudoku ou trop interessé) -> les biais sont similaires -> compensation.
+
+% Personne n'a dessiné. Donc homogénéité des participants mais liberté -> pas de pression
+
 \subsection{Analyse des résultats} \label{ssec:analyseResult}
 Il est intéressant de constater qu'en moyenne, les temps perçus sont supérieurs à la durée réelle de l'expérience. Il y a cependant une différence entre les deux; il apparait que le temps a semblé passer plus lentement lorsque la vidéo ennuyante a été projetée. Cette dernière à en effet causé une différence de 35 \% par rapport au temps de référence. La vidéo intéressante provoque quant à elle une augmentation de 9,7 \% du temps perçu par rapport à sa durée réelle.
 
@@ -298,14 +302,12 @@ Il y donc une différence de 25,3 \% entre les deux temps perçus. Nous avons pr
 % conclusion du travail
 
 % remerciements
-Je tiens finalement à remercier toutes les personnes sans lesquelles ce travail aurait été impossible. Merci tout d'abord à M. Fiechter pour son accompagnement et ses précieux conseils tout au long de cette année. Merci ensuite à toutes les personnes ayant de gré ou de force participé à mes expériences. Je remercie également ma famille pour bm'avoir relu et conseillé.
 
 %----------------------------------------------------------------------------------------
 %	Annexes
 %----------------------------------------------------------------------------------------
 
 \chapterimage{boat.png}
-\appendix
 
 \chapter{Annexes} \label{cha:annexes}
 \section*{Expérience 1}
@@ -355,5 +357,7 @@ Je tiens finalement à remercier toutes les personnes sans lesquelles ce travail
 \section*{Ressources en ligne}
 \addcontentsline{toc}{section}{Ressources en ligne}
 \printbibliography[heading=bibempty,type=online]
+
+%----------------------------------------------------------------------------------------
 
 \end{document}
