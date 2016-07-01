@@ -6,6 +6,7 @@ latex/TM.log
 latex/TM.out
 latex/TM.ptc
 latex/TM.toc
+latex/TM.bbl
 latex/TM.synctex.gz
 latex/TM.fdb_latexmk
 latex/TM.run.xml
@@ -36,3 +37,4 @@ Thumbs.db
 *.aux
 *.fdb_latexmk
 *.fls
+*.bbl
