@@ -23,7 +23,6 @@ latex/Output/TM.fdb_latexmk
 latex/Output/TM.run.xml
 expérience/vidéo A.mp4
 expérience/vidéo B.mp4
-*.pdf
 *.zip
 *.log
 .DS_Store
