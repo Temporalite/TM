@@ -33,7 +33,9 @@
 % cmd + l, cmd + w, b | e | u : make the selectioned text bold | italic | undeline
 % tab : escape character
 % @ : snippets for bibtex
-%cmd + l, cmd + p : show all the commands
+% cmd + l, cmd + p : show all the commands
+% cmd + r : jump in the text (following structure)
+% cmd + number : jump to specified tab
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -143,7 +145,7 @@ Ma problématique se divise en deux parties auxquelles je répondrai dans un pre
 \end{remark}
 
 \subsection[Définition]{Définition \cite{wikineuro}} \label{ssec:definition} % définition générale des neurosciences
-Les neurosciences, domaine que l'on pourrait croire limité au cerveau par l'amalgame entre ce terme et le mot \emph{neurone}\footnote{La langue française regorge de locutions telles que ``s'échauffer les neurones'', ``avoir les neurones rouillés'', ``titiller les neurones'' pour lesquelles \emph{neurone} et \emph{cerveau} sont synonyme.}, visent à l'étude du système nerveux dans sa globalité; elles sont le sujet de plusieures disciplines qui travaillent à divers ordres de grandeur, de l'échelle moléculaire à l'étude d'un organe tel que le cerveau, jusqu'à l'ensemble d'un organisme. Les nombreuses disciplines qui se partagent ce champ de recherche permettent alors de l'aborder de différentes manières : l'étude des interactions synaptiques, la compréhension d'un comportement et le développement d'une interface homme-machine appartenant respectivement à la biochimie, aux sciences cognitives et à l'ingénierie. Ces différents angles d'approche se divisent ensuite en deux catégories distinctes mais complémentaires : une approche psychologique (cognition, psychologie…) et une démarche scientifique (biologie, chimie, mathématique…). Ils se réconcilient finalement selon deux approches opposées l'une à l'autre. La première, dénomée ascendante ou \emph{bottom-up}, a pour but de comprendre le fonctionnement des constituants les plus élémentaires du système nerveux pour ensuite saisir les mécanismes qui régissent les structures supérieures et ce de manière récursive jusqu'à ce que la totalité du système soit compris. La méthode descendante ou \emph{top-down} se définit comme une rétro ingéniérie du système nerveux en considérant un organisme dans sa globalité, dans l'intention de comprendre la nature et le fonctionnement des circuits neuronaux par une observation du comportement. Les flux neuronaux et leur traitement sont ainsi caractérisables selon l'une ou l'autre de ces méthodes; les influx sensoriels (tels que la sensation d'un objet sur la peau) et leur traitement relèvent d'une approche ascendante car ils déclenchent une cascade de réactions sans qu'un but précis ne régisse l'ensemble du raisonnement. Les fonctions exécutives, qui permettent de modifier le comportement en fonction du contexte dans lequel l'on se trouve, fonctionnent au contraire selon un mode descendant car elles sont caractérisées par un dessein supérieur (tel que la planifcation d'une action) qui dirige le raisonnement vers une action à partir de differentes sources d'information \cite{bottomupTopdown}\cite{foncExec}.
+Les neurosciences, domaine que l'on pourrait croire limité au cerveau par l'amalgame entre ce terme et le mot \emph{neurone}\footnote{La langue française regorge de locutions telles que ``s'échauffer les neurones'', ``avoir les neurones rouillés'', ``titiller les neurones'' pour lesquelles \emph{neurone} et \emph{cerveau} sont synonyme.}, visent à l'étude du système nerveux dans sa globalité; elles sont le sujet de plusieures disciplines qui travaillent à divers ordres de grandeur, de l'échelle moléculaire à l'étude d'un organe tel que le cerveau, jusqu'à l'ensemble d'un organisme. Les nombreuses disciplines qui se partagent ce champ de recherche permettent alors de l'aborder de différentes manières : l'étude des interactions synaptiques, la compréhension d'un comportement et le développement d'une interface homme-machine appartenant respectivement à la biochimie, aux sciences cognitives et à l'ingénierie. Ces différents angles d'approche se divisent ensuite en deux catégories distinctes mais complémentaires : une approche psychologique (cognition, psychologie…) et une démarche scientifique (biologie, chimie, mathématique…). Ils se réconcilient finalement selon deux approches opposées l'une à l'autre. La première, dénomée ascendante ou \emph{bottom-up}, a pour but de comprendre le fonctionnement des constituants les plus élémentaires du système nerveux pour ensuite saisir les mécanismes qui régissent les structures supérieures et ce de manière récursive jusqu'à ce que la totalité du système soit compris. La méthode descendante ou \emph{top-down} se définit comme une rétro ingéniérie du système nerveux en considérant un organisme dans sa globalité, dans l'intention de comprendre la nature et le fonctionnement des circuits neuronaux par une observation du comportement. Les flux neuronaux et leur traitement sont ainsi caractérisables selon l'une ou l'autre de ces méthodes; les influx sensoriels (tels que la sensation d'un objet sur la peau) et leur traitement relèvent d'une approche ascendante car ils déclenchent une cascade de réactions sans qu'un but précis ne régisse l'ensemble du raisonnement. Les fonctions exécutives, qui permettent de modifier le comportement en fonction du contexte dans lequel l'on se trouve, fonctionnent au contraire selon un mode descendant car elles sont caractérisées par un dessein supérieur (tel que la planifcation d'une action) qui dirige le raisonnement vers une action à partir de differentes sources d'information \cite{bottomupTopdown,foncExec}.
 
 \begin{figure}[h]
 	\centering{
@@ -155,12 +157,27 @@ Les neurosciences, domaine que l'on pourrait croire limité au cerveau par l'ama
 
 Si les neurosciences sont en général associées aux mécanismes neurobiologiques et donc à la cognition, ce champ de recherche offre des applications dans des domaines aussi divers que l'éducation (pour faciliter l'apprentissage \cite{pedagogie}) ou la justice (des tribunaux américains ont recours à l'IRMf pour démontrer le lien entre des comportements délictueux et des lésions cérébrales bien que cette pratique fasse polémique \cite{justice}).
 
-\subsection[La temporalité]{La temporalité \cite{reptemps}} \label{ssec:temporalite} % définition générale de comment ça marche, des moyens pour étudier la temporalité, puis ceux que je pourrais/vais employer
+\subsection[La temporalité]{La temporalité \cite{reptemps,}} \label{ssec:temporalite} % définition générale de comment ça marche, des moyens pour étudier la temporalité, puis ceux que je pourrais/vais employer
 L'homme est capable de percevoir le temps de façon générale en se référant à ce qui a déjà été vécu, ce qui est vécu et ce qui le sera. Ces notions de passé, présent et futur étant de nature imprécise, l'homme à développé un système d'unités temporelles pour pouvoir ordonner le temps. En se basant sur des cycles réguliers tels que l'alternance entre le jour et la nuit ou le passage d'un électron d'un niveau énergétique à un autre, il est possible de définir le temps de manière objective. 
 
-Au niveau cérébral, la perception du temps est liée à diverses facultés. En effet, il est indispensable d'emmagasiner, de conserver et de récupérer des souvenirs pour se référer au passé. Il faut ainsi être capable de prévoir ou d'imaginer ce qui va se passer dans l'avenir pour appréhender le futur. Sur une échelle temporelle plus courte, le cerveau est aussi capable de gérer les rythmes qui règlent la périodicité des processus biologiques et parvient en outre à percevoir des durées de l'ordre de la miliseconde lors d'activités motrices, musicales ou verbales. \cite{perceptionTemps}
+Au niveau cérébral, la perception du temps est liée à diverses facultés. En effet, il est indispensable d'emmagasiner, de conserver et de récupérer des souvenirs pour se référer au passé. Il faut ainsi être capable de prévoir ou d'imaginer ce qui va se passer dans l'avenir pour appréhender le futur. Sur une échelle temporelle plus courte, le cerveau est aussi capable de gérer les rythmes qui règlent la périodicité des processus biologiques et parvient en outre à percevoir des durées de l'ordre de la miliseconde lors d'activités motrices, musicales ou verbales \cite{perceptionTemps}. Il y a ainsi plusieurs catégories de temps, \cite{tempsEtIllusions,basePerception}
 
-Cette perception peut être déformée par les émotions, le temps semble par exemple s'écouler plus lentement lorsque l'on traverse une dépression \cite{emotiontemps}.
+	stimulus pour tous les autres sens mais pas pour la perception du temps --> il n'est perçu par aucun de nos 5 sens.
+	horloge interne à la base de l'hypothalamus. se synchronise avec l'environnemnt extérieur et social. ne sert pas aux durées brèves (centaine de miliseconde à secondes).
+	Un ``pacemaker'' (John Gibbon, Russel Church et Warren Meck) produit des imoulsions à un rythme régulier (influençable par drogues,attention,émotions) qui sont stockées. Puis comparaison entre le nombre d'impulsions entre un phénomène et un autre pour savoir lequel est le plus rapide.
+	Pour savoir comment ça marche : éléctroencéphalographie (activité cérébrale : quand est-ce que l'on enregistre un signal. donne une information temporelle très précis de l'ordre de quelques dizaines de ms. On capte des ondes différentes pour différents processus qui sont liés à des événements comme des stimulus ou des opérations cognitives. Il y en a une pour la perception du temps, reconaissable par un potentiel particulier). tomographie (mesure du métabolisme) et IRMf : ou le temps est-il perçu.
+	On utilise une catégorie particulière des potentiels cérébraux spécifiques (a definir), le potentiel évoqué par l'estimation d'une durée s'appelle CNV pour variation contingente négative (en anglais \emph{Contingent Negative Variation}). Une onde lente qui indique le nombre d'impulsions de l'horloge interne à son amplitude maximale. Donc la durée du temps est liée au nombre d'impulsions, + = + de temps.
+	Deux théories pour savoir ou c'est : dans une seule zone (cervelet, striatum, aire motrice supplémentaire, cortex préfrontal droit) et réseaux répartis dans tout le cerveau
+
+\begin{figure}[h]
+	\centering{
+		\resizebox{\textwidth}{!}{\input{img/aires.pdf_tex}}
+		\caption{Aires cérébrales associées à la perception temporelle \cite{basePerception}}
+		\label{fig:aires}
+	}
+\end{figure}
+
+Cette perception peut être déformée par les émotions, le temps semble par exemple s'écouler plus lentement lorsque l'on traverse une dépression \cite{emotionsTemps,emotionsTemps2}
 
 %----------------------------------------------------------------------------------------
 %	Expérience
@@ -179,6 +196,7 @@ Pour ce faire, il est demandé à un groupe de personnes ne portant pas de montr
 Il s'agira en l'occurrence de remplir un sudoku ou de dessiner sur la feuille lors de la projection d'un film tantôt intéressant, tantôt ennuyeux. 
 
 % ORDRE matériel (sudoku et questionnaire enannexe) mérhode résultats
+% Facteurs pouvant perturber la perception du temps : Attention, émotions,drogues
 
 \section{Définition du protocole} \label{sec:DefinitionProto}
 
