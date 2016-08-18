@@ -55,17 +55,17 @@
     \put(0.26090111,0.4976778){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Aires motrice supplémentaires}}}}%
     \put(0.28591905,0.46461841){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex sensoriomoteur}}}}%
     \put(0.20014332,0.50214528){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.42441103,0.41905007){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{cortex pariétal}}}}%
+    \put(0.42441103,0.42094546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{cortex pariétal}}}}%
     \put(0.46729892,0.37616221){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Thalamus}}}}%
-    \put(0.18584735,0.12151554){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{ganglions de la base}}}}%
+    \put(0.18584735,0.11772474){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{ganglions de la base}}}}%
     \put(0.11258062,0.17065791){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Gyrus temporal}}}}%
     \put(0.58792102,0.12687655){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cervelet}}}}%
     \put(0.65225276,0.47087289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Thalamus}}}}%
     \put(0.6013234,0.49231682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Aire motrice supplémentaire}}}}%
     \put(0.81665629,0.44585498){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex préfrontal}}}}%
     \put(0.21045801,0.03659617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère gauche}}}}}%
-    \put(0.61435581,0.0374897){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère droit}}}}}%
-    \put(0.02242976,0.00161133){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Raphael Queruel}}}}%
+    \put(0.61435581,0.03659617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère droit}}}}}%
+    \put(0.02242976,0.00161133){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{\emph{Raphael Queruel}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{aires.pdf}}%
   \end{picture}%
 \endgroup%
