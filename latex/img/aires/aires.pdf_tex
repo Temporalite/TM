@@ -1,0 +1,71 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'aires.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1216.53744613bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.49486383)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{aires.pdf}}%
+    \put(0,0.39924607){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex préfrontal}}}}%
+    \put(0.04697011,0.467185){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex prémoteur latéral}}}}%
+    \put(0.26840072,0.46802375){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Aires motrice supplémentaires}}}}%
+    \put(0.29188581,0.43698992){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex sensoriomoteur}}}}%
+    \put(0.21136557,0.47221751){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.42189236,0.39599282){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{cortex pariétal}}}}%
+    \put(0.46215251,0.35395344){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Thalamus}}}}%
+    \put(0.19794551,0.11135048){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{ganglions de la base}}}}%
+    \put(0.12916785,0.16104042){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Gyrus temporal}}}}%
+    \put(0.57538407,0.11994155){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cervelet}}}}%
+    \put(0.63577419,0.44286118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Thalamus}}}}%
+    \put(0.58796529,0.46299124){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Aire motrice supplémentaire}}}}%
+    \put(0.79010469,0.41937612){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex préfrontal}}}}%
+    \put(0.23172384,0.03603145){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère gauche}}}}}%
+    \put(0.60019919,0.03603145){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère droit}}}}}%
+    \put(0.04454055,0.00235135){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{\emph{Raphael Queruel}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{aires.pdf}}%
+  \end{picture}%
+\endgroup%
