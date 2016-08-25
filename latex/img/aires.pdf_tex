@@ -63,8 +63,8 @@
     \put(0.65225276,0.47087289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Thalamus}}}}%
     \put(0.6013234,0.49231682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Aire motrice supplémentaire}}}}%
     \put(0.81665629,0.44585498){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\Huge{Cortex préfrontal}}}}%
-    \put(0.21045801,0.03659617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère gauche}}}}}%
-    \put(0.61435581,0.03659617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère droit}}}}}%
+    \put(0.21677599,0.03659617){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère gauche}}}}}%
+    \put(0.61435581,0.0374897){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textsc{\Huge{hémisphère droit}}}}}%
     \put(0.02242976,0.00161133){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{\emph{Raphael Queruel}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{aires.pdf}}%
   \end{picture}%
