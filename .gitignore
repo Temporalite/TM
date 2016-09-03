@@ -38,3 +38,14 @@ Thumbs.db
 *.fdb_latexmk
 *.fls
 *.bbl
+*.bcf
+*.blg
+*.out
+*.ptc
+*run.xml
+*.synctex.gz
+*.toc
+ressources/*
+*.gz(busy)
+*.debris
+*.mp4
