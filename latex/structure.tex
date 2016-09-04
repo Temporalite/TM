@@ -26,7 +26,9 @@
 
 \usepackage{eso-pic} % Required for specifying an image background in the title page
 
-\usepackage{pdfpages} % pour les annexes
+\usepackage{pdfpages} % Pour les annexes
+
+\usepackage[autostyle=true, french=guillemets]{csquotes} % Pour respecter la typographie française des guillemets
 
 %----------------------------------------------------------------------------------------
 %	POLICES
@@ -364,7 +366,8 @@ innerbottommargin=5pt]{cBox}
 
 % Bibliography
 \usepackage[sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex} %
-\addbibresource{bibliography.bib} % BibTeX bibliography file
+\DefineBibliographyStrings{french}{andothers={et coll\adddot}}
+\addbibresource{bibliographie.bib} % BibTeX bibliography file
 \defbibheading{bibempty}{}
 
 %----------------------------------------------------------------------------------------
