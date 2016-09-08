@@ -264,8 +264,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="249.28967"
-     inkscape:cy="121.04928"
+     inkscape:cx="454.80866"
+     inkscape:cy="141.04928"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -318,7 +318,7 @@
          sodipodi:role="line"
          id="tspan4248"
          x="714"
-         y="176.3622"></tspan></text>
+         y="176.3622" /></text>
     <rect
        style="opacity:1;fill:#7ae3f8;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4150"
@@ -435,36 +435,36 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.60715294px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="498.20883"
+       x="494.20883"
        y="191.8976"
        id="text11276"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan11278"
-         x="498.20883"
-         y="191.8976">Horloge</tspan></text>
+         id="tspan3412"
+         x="494.20883"
+         y="191.8976">\textbf{Horloge}</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.60715294px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="491.85291"
+       x="487.85291"
        y="320.75586"
        id="text11280"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan11282"
-         x="491.85291"
-         y="320.75586">Mémoire</tspan></text>
+         id="tspan3414"
+         x="487.85291"
+         y="320.75586">\textbf{Mémoire}</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.60715294px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="493.95953"
+       x="489.95953"
        y="422.7164"
        id="text11284"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan11286"
-         x="493.95953"
-         y="422.7164">Décision</tspan></text>
+         id="tspan3416"
+         x="489.95953"
+         y="422.7164">\textbf{Décision}</tspan></text>
     <rect
        style="opacity:1;fill:#f9eb70;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4150-21"

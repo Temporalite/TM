@@ -1,0 +1,89 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'infographie.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{415bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.46854579)%
+    \put(2.02678294,-0.40538032){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.36947349,0.44646319){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(2.00331412,0.28128034){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.01920728\unitlength}\raggedright \end{minipage}}}%
+    \put(2.08398444,-0.37560907){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(2.08398444,-0.37945059){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.08265581,-0.74513904){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(1.51639259,0.19543973){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{infographie.pdf}}%
+    \put(0.17343973,0.42228653){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{cerveau}}}}%
+    \put(0.17267606,0.24499319){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{10 $cm$}}}%
+    \put(0.34175265,0.24474921){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1 $cm$}}}%
+    \put(0.49918744,0.24499319){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1 $mm$}}}%
+    \put(0.64984084,0.2451122){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{100 $\mu m$}}}%
+    \put(0.80872775,0.24596025){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{quelques $\mu m$}}}%
+    \put(0.33722486,0.42088744){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{Cartes}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{infographie.pdf}}%
+    \put(0.04480836,0.24450813){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1 $m$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{infographie.pdf}}%
+    \put(-0,0.42228658){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{organisme}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{infographie.pdf}}%
+    \put(0.66636885,0.42165735){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{Neurones}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{infographie.pdf}}%
+    \put(0.83803718,0.42074511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{Synapses}}}}%
+    \put(0.00344806,0.14289757){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Approche descendante ou top-down}}}%
+    \put(0.58881093,0.14120472){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Approche ascendante ou bottom-up}}}%
+    \put(0.0257934,0.13389965){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.26767345\unitlength}\raggedright \end{minipage}}}%
+    \put(-0.00043136,0.10673705){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.37341407\unitlength}\raggedright \small{- Neurosciences sociales\\ - Neuroéconomie\\ - Psychiatries}\\ \end{minipage}}}%
+    \put(0.37193222,0.10775638){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.35602216\unitlength}\raggedright \small{- Neurologie\\ - Neuropsychologie\\ - Neurosciences cognitives} \\ \end{minipage}}}%
+    \put(0.68603673,0.09650653){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31305401\unitlength}\raggedright \end{minipage}}}%
+    \put(0.72286653,0.07195331){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.72358338,0.04910232){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15426985\unitlength}\raggedright \end{minipage}}}%
+    \put(0.76151149,0.10746307){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3406763\unitlength}\raggedright \small{- Neuroendocrinologie\\ - Neurophysiologie\\ - Neuroanatomie}\end{minipage}}}%
+    \put(0.45239992,0.47425734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18001429\unitlength}\centering \small{Réseaux elémentaires}\end{minipage}}}%
+    \put(1.12193903,0.33631041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.61041512,0.41678412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{infographie.pdf}}%
+  \end{picture}%
+\endgroup%
