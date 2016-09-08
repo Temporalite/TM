@@ -146,7 +146,7 @@ Ma problématique se divise en deux parties auxquelles je répondrai dans un pre
 
 \section{Introduction aux neurosciences} \label{sec:introNeuro}
 \begin{remark}
-	Cette partie, réalisée avec la volontée de restituer le plus fidèlement les sources dont elle est issue, n'est qu'un assemblage de connaissance provenant de diverses recherches et lectures, le présent travail ne se limite alors qu'à une synthèse de celles-ci.
+	Cette partie, réalisée avec la volontée de restituer le plus fidèlement les recherches et lectures dont elle est issue, n'est qu'une synthèse de connaissance provenant de diverses sources dont certaines sont probablement dépasées actuellement. Elle reflète ma compréhension de ce sujet et n'est donc pas exhaustive.
 \end{remark}
 
 \subsection[Définition]{Définition \cite{wikineuro}} \label{ssec:definition} % définition générale des neurosciences 
@@ -154,7 +154,7 @@ Les neurosciences, domaine que l'on pourrait croire limité au cerveau par l'ama
 
 \begin{figure}[h]
 	\centering{
-		\resizebox{\textwidth}{!}{\includegraphics{infographie.pdf}}
+		\resizebox{\textwidth}{!}{\input{img/infographie.pdf_tex}}
 		\caption{Organisation du champ des neurosciences \cite{infographie}}
 		\label{fig:infographie}
 	}
@@ -167,40 +167,59 @@ Si les neurosciences sont en général associées aux mécanismes neurobiologiqu
 
 \subsection[La temporalité]{La temporalité \cite{reptemps,basePerception,perceptionTemps,tempsEtIllusions}} \label{ssec:temporalite} % définition générale de comment ça marche, des moyens pour étudier la temporalité, puis ceux que je pourrais/vais employer
 
-L'homme est capable de percevoir le temps mais il est impossible de considérer cela comme un sens au même titre que la vue, l'ouïe, le goût, l'odorat et le toucher car nous ne possédons pas de récépteurs temporels et ne percevons pas de stimuli à son propos. Cela soulève alors la question de la nature du temps car il est intangible. Saint Augustin s'intéressait déjà à cette question au V\up{e} siècle en écrivant : « \emph{Qu’est-ce donc que le temps ? Si personne ne me le demande, je le sais ; mais si on me le demande et que je veuille l’expliquer, je ne le sais plus}\footnote{livre XI des \emph{Confessions}} » \cite{augustin}. Nous faisons de plus l'expérience du temps sur une échelle allant de la miliseconde à plusieurs dizaines d'années et usons de processus cognitifs différents pour chaque catégorie de temps. Pour de longues durées, nous nous basons sur des cycles réguliers tels que les saisons, les phases de la lune ou l'alternance entre le jour et la nuit; le calendrier est un temps social qui ne dépend d'aucune aire cérébrale spécifique mais utilise la mémoire et le language. En effet, il est indispensable d'emmagasiner, de conserver et de récupérer des souvenirs pour se référer au passé. Il faut de même être capable de prévoir ou d'imaginer ce qui va se passer dans l'avenir pour appréhender le futur. De cela découle ensuite une organisation du temps selon une convention partagée par une population.
+L'homme est capable de percevoir le temps mais il est impossible de considérer cela comme un sens au même titre que la vue, l'ouïe, le goût, l'odorat et le toucher car nous ne possédons pas de récépteurs temporels et ne percevons pas de stimuli à son propos. Cela soulève alors la question de la nature du temps, car il est intangible. Saint Augustin s'intéressait déjà à cette question au V\up{e} siècle en écrivant : « \emph{Qu’est-ce donc que le temps ? Si personne ne me le demande, je le sais ; mais si on me le demande et que je veuille l’expliquer, je ne le sais plus}\footnote{livre XI des \emph{Confessions}} » \cite{augustin}. Nous faisons de plus l'expérience du temps sur une échelle allant de la miliseconde à plusieurs dizaines d'années et usons de processus cognitifs différents pour chaque catégorie de temps. Pour de longues durées, nous nous basons sur des cycles réguliers tels que les saisons, les phases de la lune ou l'alternance entre le jour et la nuit; le calendrier est un temps social qui ne dépend d'aucune aire cérébrale spécifique mais utilise la mémoire et le language. En effet, il est indispensable d'emmagasiner, de conserver et de récupérer des souvenirs pour se référer au passé. Il faut de même être capable de prévoir ou d'imaginer ce qui va se passer dans l'avenir pour appréhender le futur. De cela découle ensuite une organisation du temps selon une convention partagée par une population.
 
 Sur une échelle temporelle plus courte, d'environ une journée, le cerveau est aussi capable de gérer des horloges biologiques (à ne pas confondre avec l'horloge interne qui mesure ou compare des intervalles de temps) qui s'occupent de la périodicité de cycles tels que l'alternance entre la veille et le sommeil. 
 
-À partir de 3 ou 4 secondes, le cerveau prend conscience du temps et implique un grand nombre d'aire cérébrales à son traitement, qu'elles soient corticales (zones superficielles du cerveau, responsables de fonction supérieures telles que la pensée) ou sous corticales. La mémoire et l'attention jouent un rôle prépondérant pour se souvenir d'un évènement ainsi que du temps écoulé et pour se concentrer sur le temps qui passe. Il parvient en outre à percevoir des durées de l'ordre de la miliseconde, utiles lors d'activités motrices, musicales ou verbales.
+À partir de 3 ou 4 secondes, le cerveau prend conscience du temps et implique un grand nombre d'aire cérébrales à son traitement, qu'elles soient corticales (zones superficielles du cerveau, responsables de fonction supérieures telles que la pensée) ou sous corticales. Ces durées allant de quelques secondes à une centaine de milisecondes sont notamment gérées par une horloge se situant à la base l'hypothalamus qui se synchronise avec l'environnement extérieur et social. La mémoire et l'attention jouent de plus un rôle prépondérant pour se souvenir d'un évènement ainsi que du temps écoulé et pour se concentrer sur le temps qui passe. Le cerveau parvient en outre à percevoir des durées de l'ordre de la miliseconde, utiles lors d'activités motrices, musicales ou verbales.
 
 Si la perception de longues durées peuvent être décrites par une connaissance générale des mécanismes psychologiques, les durées courtes requièrent au contraire une compréhension des mécanismes neurobiologiques. Pour ce faire, il faut savoir quelles zones du cerveau sont en activité et à quel moment elles le sont. L'on répond à la première question par l'usage de l'imagerie par résonance magnétique fonctionnelle, plus généralement désignée par l'acronyme IRMf, ainsi que par le procédé de la tomographie, qui permet de reconstituer le volume des zones étudiées à partir des vues en coupe de l'IRMf. La tomographie par émission de positrons (TEP), une technique d'imagerie permettant de visualiser en trois dimensions un mécanisme métabolique par un marqueur radioactif est aussi utilisée. Ces techniques n'ont cependant qu'une faible résolution temporelle, de l'ordre de quelques secondes pour l'IRMf à plus d'une minute pour la TEP. L'électroencéphalographie est alors employée pour y remédier, elle dispose en effet d'une résolution temporelle de quelques dizaines de millisecondes, ce qui lui permet d'enregistrer les divers potentiels électriques liés à des évènements comme des stimuli ou des opérations cognitives. 
 
-Un potentiel particulier est justement évoqué par l'estimation d'une durée. Il s'agit d'une onde lente que l'on appelle CNV pour \emph{variation contingente négative} (en anglais \emph{contingent negative variation}). Elle a été découverte en 1964 par le neurophysiologiste américain William G. Walter qui a demandé à des volontaires de presser sur un bouton après avoir entendu deux signaux. Le premier avait deux secondes d'avance et servait à avertir du second signal. Durant l'intervalle entre les deux, une onde élecrique se développe dans la région frontocentrale du cerveau. Elle est crée par la focalisation des sujets sur le temps entre les deux stimuli et l'attente du second stimulus. Plus l'estimation du temps est importante, plus l'amplitude de la CNV augmente, ce qui semble confirmer la théorie selon laquelle nous possédons une horloge interne, sorte de « pacemaker » qui délivrerait des impulsions à intervalle régulier dans une zone jouant le rôle d'accumulateur. Celui-ci transmettrait ensuite le nombre d'impulsions à une mémoire de référence. Lors de la deuxième durée, l'accumulateur transmettrait son compte à une mémoire de travail dont le rôle serait de comparer les deux durées\footnote{John Gibbon, Russell Church et Warren Meck (1984)}.
+Un potentiel particulier est justement évoqué par l'estimation d'une durée. Il s'agit d'une onde lente que l'on appelle CNV pour \emph{variation contingente négative} (en anglais \emph{contingent negative variation}). Elle a été découverte en 1964 par le neurophysiologiste américain William G. Walter et son équipe qui ont demandé à des volontaires de presser sur un bouton après avoir entendu deux signaux. Le premier avait deux secondes d'avance et servait à avertir du second signal. Durant l'intervalle entre les deux, une onde électrique se développe dans la région frontocentrale du cerveau. Elle est crée d'une part par la focalisation des sujets sur le temps entre les deux stimuli et de l'autre par l'attente du second stimulus. Plus l'estimation du temps est importante, plus l'amplitude de la CNV augmente, ce qui semble confirmer la théorie selon laquelle nous possédons une horloge interne, sorte de « pacemaker » qui délivrerait des impulsions à intervalle régulier, à travers un interrupteur, dans une zone jouant le rôle d'accumulateur. Celui-ci transmettrait ensuite le nombre d'impulsions à une mémoire de référence. Lors de la deuxième durée, l'accumulateur transmettrait son compte à une mémoire de travail dont le rôle serait de comparer les deux durées\footnote{John Gibbon, Russell Church et Warren Meck (1984)}.
 
+\begin{figure}[h]
+	\centering{
+		\resizebox{\textwidth}{!}{\input{img/pacemaker.pdf_tex}}
+		\caption{Modèle de traitement de l'information temporelle \cite{imgPouthas}}
+		\label{fig:aires}
+	}
+\end{figure}
 
-	horloge interne à la base de l'hypothalamus. se synchronise avec l'environnemnt extérieur et social. ne sert pas aux durées brèves (centaine de miliseconde à secondes).
+La situation de ce « pacemaker » n'est cependant pas clairement établie
+	
 	Un ``pacemaker''  produit des imoulsions à un rythme régulier (influençable par drogues, attention, émotions) qui sont stockées. Puis comparaison entre le nombre d'impulsions entre un phénomène et un autre pour savoir lequel est le plus rapide.
 
 	Une onde lente qui indique le nombre d'impulsions de l'horloge interne à son amplitude maximale. Donc la durée du temps est liée au nombre d'impulsions, + = + de temps.
 	Deux théories pour savoir ou c'est : dans une seule zone (cervelet, striatum, aire motrice supplémentaire, cortex préfrontal droit) et réseaux répartis dans tout le cerveau.
 	premiere théorie (lésion là = probleme temps) : 
+
 		- Cervelet -> mouvements intervalle régulier
+
 		- Parkinson (mois de dopamine) -> CNV moins ample. Si plus de dopamine : infos temporelles restaurées
+
 		- Aires frontales et pariétales (surtout hémisphère droit) -> différencier durée signaux auditifs et visuels mais fréquence et intensité ok
+
 	Variation du réseau en fonction des informations temporelles (durée ou rythme) et de la tâche (perceptive ou motrice)
+
 		- Tâches automatiques et rythmiques courtes (moins de 1 seconde) -> circuits moteurs : aire motrice supplémentaire de chaque hémisphère, cortex sensoriomoteur gauche, cervelet droit, cortex prémoteur latéral droit ou gauche, thalamus et ganglions de base (souvent le putamen gauche). Activité dans le gyrus temporal (temporal ici =/= pas temps mais en rapport avec tempe) mais pas souvent dans le cortex préfrontal et la pluspart des cortex pariétaux.
+
 		% - cervelet, ganglions de base  et l'aire motrice supplémentaire -> fonctions motrices
 		- Tâches avec un contrôle cognitif -> beaucoup cervelet gauche et cortex préfrontaux (surtout à droite) mais sans rejeter les structures impliquées dans le système \emph{automatique} comme le cortex prémoteur et l'aire motrice supplémentaire bilatérale
 		% - réseau fronto-pariétal -> processus attentionnels et mnésiques.
+
 	Rôle des structures (en dehors de la perception temporelle d'une tâche donnée), spécifique ? : 
 		Pour faire la différence entre les aires qui sont utilisées juste pour la mesure des durées et celles qui ne sont pas utilisées juste pour ça mais qui sont essentielles pour pour mesurer la durées : tache temporelle (durée son/stimulus visuel) et tache non temporelle (fréquence ou intensité son/luminance stimulus visuel). 
+
 		- Cortex préfrontal dorsolatéral et cortex pariétal -> opération mnésiques et attentionnelles => comparaison durée avec représentation d'une durée de référence.
+	
 	Où est le ``pacemaker'' ? 
+
 		- Striatum -> activé dans plein de taches temporelles. Il detecterait l'arrivée de plein de potentiels d'action en provenance des neurones corticaux (ou du thalamus) et chacun des ses neurones encoderait une durée en fonction de la pulsation de neurones situés avant eux sur le chemin des potentiels. 
+		
 		- Pas d'horloge interne -> théorie selon laquelle le timing est inné. Pas d'horloge interne mais des motifs de décharge au sein de vastes réseaux neuronaux. Dans les aires sensorielles (auditives et visuelles) ou dans le cervelet. MAIS! traite seulement des durées très courtes, moins de 300 ms ET appartenent à un seul sens. => horloge interne = cool
 
-		Lorsque l'on fait des expériences pour tester le sens du temps chez l'homme, l'on constate que son estimation temporelle est en moyenne correcte, quelle que soit sa valeur. Pour ce faire, il est généralement demandé de produire des durées pendant un temps précis ou, au contraire, de reproduire des durées acquises par l'écoute d'un son. Il est de plus demandé d'effectuer un troisième type d'exercice qui consiste à comparer la durée de deux sons pour déterminer par exemple lequel est le plus long ou si une durée est égale à une autre.
-		Le temps subjectif est donc en moyenne identique au temps réel mais plus les durées à estimer sont longues, moins il est précis. C'est pour cela que nous comptons lorsque nous devons estimer une durée de manière précise. Le fait d'incrémenter un compte d'une unité chaque seconde nous permet de nous concentrer sur une petite durée temporelle.
+Lorsque l'on fait des expériences pour tester le sens du temps chez l'homme, l'on constate que son estimation temporelle est en moyenne correcte, quelle que soit sa valeur. Pour ce faire, il est généralement demandé de produire des durées pendant un temps précis ou, au contraire, de reproduire des durées acquises par l'écoute d'un son. Il est de plus demandé d'effectuer un troisième type d'exercice qui consiste à comparer la durée de deux sons pour déterminer par exemple lequel est le plus long ou si une durée est égale à une autre.
+Le temps subjectif est donc en moyenne identique au temps réel mais plus les durées à estimer sont longues, moins il est précis. C'est pour cela que nous comptons lorsque nous devons estimer une durée de manière précise. Le fait d'incrémenter un compte d'une unité chaque seconde nous permet de nous concentrer sur une petite durée temporelle.
 
 \begin{figure}[h]
 	\centering{
@@ -374,7 +393,7 @@ Il y donc une différence de 25,3 \% entre les deux temps perçus. Nous avons pr
 \newpage
 \section{Seconde expérience} \label{sec:exp2}
 Jusqu'à ce point, je ne me suis penché que sur le facteur émotionnel pour influencer le temps perçu par les volontaires ayant participé à mon expérience, leur travail étant d'estimer une durée imposée. Cette expérience est, au contraire, élaborée dans le but d'être opposée à la première : au lieu d'avoir à définir une durée, il faut la produire et la variable étudiée n'est pas de nature psychologique mais somatique.
-
+% Jugement prospectif (avec horloge) =/= jugement rétrospectif 
 \subsection{Expérience préparatoire} \label{ssec:but2.1}
 Il est demandé à cet effet à des volontaires de se relaxer puis de faire de la corde à sauter. Après chacune de ces activités, ils doivent compter une durée qu'ils pensent être égale à celle demandée, l'objectif étant de déterminer si une activité physique modifie momentanément la perception temporelle par la comparaison des deux durées. Cette première partie de l'expérience, a pour but de tester le protocole défini ci-dessous et de l'adapter en fonction des résultats obtenus.
 
@@ -567,6 +586,9 @@ Références non présentes dans le texte mais qu'il faudra bien placer un jour 
 \section*{Articles}
 \addcontentsline{toc}{section}{Articles}
 \printbibliography[heading=bibempty,type=article]
+\section*{Non publié}
+\addcontentsline{toc}{section}{Non publié}
+\printbibliography[heading=bibempty,type=unpublished]
 \section*{Ressources en ligne}
 \addcontentsline{toc}{section}{Ressources en ligne}
 \printbibliography[heading=bibempty,type=online]
