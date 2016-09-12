@@ -28,7 +28,7 @@
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
      inkscape:window-height="859"
-     inkscape:window-width="1442"
+     inkscape:window-width="1440"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -39,7 +39,7 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:zoom="2.6551159"
-     inkscape:cx="361.25368"
+     inkscape:cx="180.47061"
      inkscape:cy="48.787921"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -1741,7 +1741,7 @@
          height="106.14165"
          x="13.31052"
          y="163.47192" /></flowRegion><flowPara
-       id="flowPara6205"></flowPara></flowRoot><flowRoot
+       id="flowPara6205" /></flowRoot><flowRoot
      xml:space="preserve"
      id="flowRoot6207"
      style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1755,7 +1755,7 @@
          style="font-size:15px" /></flowRegion><flowPara
        id="flowPara6217">\small{- Neurosciences sociales</flowPara><flowPara
        id="flowPara6219">- Neuroéconomie</flowPara><flowPara
-       id="flowPara10097">- Psychiatries}</flowPara><flowPara
+       id="flowPara10097">- Psychiatrie}</flowPara><flowPara
        id="flowPara10099" /></flowRoot><flowRoot
      xml:space="preserve"
      id="flowRoot6221"
@@ -1805,7 +1805,7 @@
          height="62.623577"
          x="375.51755"
          y="257.89432" /></flowRegion><flowPara
-       id="flowPara6253"></flowPara></flowRoot><flowRoot
+       id="flowPara6253" /></flowRoot><flowRoot
      xml:space="preserve"
      id="flowRoot6255"
      style="font-style:normal;font-weight:normal;font-size:14.96612453px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
