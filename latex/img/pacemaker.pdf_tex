@@ -60,7 +60,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=4]{pacemaker.pdf}}%
     \put(0.00382954,0.26914581){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28131227\unitlength}\centering Mémoire de travail (court terme)\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{pacemaker.pdf}}%
-    \put(0.49065989,0.26757742){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31209713\unitlength}\centering Mémoire de référence (court terme)\end{minipage}}}%
+    \put(0.49065989,0.26757742){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31209713\unitlength}\centering Mémoire de référence (long terme)\end{minipage}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{pacemaker.pdf}}%
     \put(0.88310588,0.47914295){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Horloge}}}}%
     \put(0.87085228,0.23071696){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Mémoire}}}}%
