@@ -81,7 +81,7 @@
     \put(0.72286653,0.07195331){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0.72358338,0.04910232){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15426985\unitlength}\raggedright \end{minipage}}}%
     \put(0.76151149,0.10746307){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3406763\unitlength}\raggedright \small{- Neuroendocrinologie\\ - Neurophysiologie\\ - Neuroanatomie}\end{minipage}}}%
-    \put(0.45239992,0.47425734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18001429\unitlength}\centering \small{Réseaux elémentaires}\end{minipage}}}%
+    \put(0.45239992,0.47425734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.18001429\unitlength}\centering \small{Réseaux élémentaires}\end{minipage}}}%
     \put(1.12193903,0.33631041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0.61041512,0.41678412){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{infographie.pdf}}%
