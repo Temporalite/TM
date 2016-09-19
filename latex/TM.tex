@@ -366,7 +366,6 @@ Si l'on considère l'ensemble de ces facteurs, il en ressort que cette expérien
 % Il faut isoler la variable étudiée ! Difficile okay mais expliquer comment j'ai fait. Parler de la taille du groupe
 
 \subsubsection{Analyse des résultats} \label{sssec:analyseResult1.1}
-Commençons par 
 
 \begin{table}[h!]
 	\centering
@@ -384,43 +383,136 @@ Commençons par
 	\end{tabular}
 \end{table}
 
+Commençons par considérer les valeurs extrêmes récoltées lors de l'expérience. Bien qu'elle ne soient que peu utiles pour déterminer si l'on peut rejeter l'hypothèse nulle (à savoir : l'expérience n'a aucun effet sur la perception temporelle des participants), elle sont utiles pour déterminer l'état d'esprit des participants. Elles nous renseignent en effet sur les divergences les plus fortes et indiquent 
 
 % Il est intéressant de constater qu'en moyenne, les temps perçus sont supérieurs à la durée réelle de l'expérience. Il y a cependant une différence entre les deux; il apparait que le temps a semblé passer plus lentement lorsque la vidéo ennuyante a été projetée. Cette dernière à en effet causé une différence de 35 \% par rapport au temps de référence. La vidéo intéressante provoque quant à elle une augmentation de 9,7 \% du temps perçu par rapport à sa durée réelle.
 
 % Il y donc une différence de 25,3 \% entre les deux temps perçus. Nous avons précédemment discuté des biais pouvant affecter ce résultat, il est donc à considérer avec prudence.
+
+% \begin{table}[h!]
+% \centering
+% \begin{minipage}[t]{.49\textwidth}
+% 	 \centering{
+% 			\includegraphics[trim=48 10 130 30, clip, width=\textwidth]{histA.png}} % gauche bas droite haut
+% 		\caption{Histogramme représentant la répartition des participants en fonction du temps perçu lors de la partie A. }
+% \end{minipage}
+% \hfill
+% \begin{minipage}[t]{.49\textwidth}
+% 	 \centering{
+% 			\includegraphics[trim=53 10 115 30, clip, width=\textwidth]{histB.png}}
+% 		\caption{Histogramme représentant la répartition des participants en fonction du temps perçu lors de la partie B}
+% \end{minipage}
+% \end{table}
+
+% \begin{table}[h!]
+% \centering
+% \begin{minipage}[t]{.49\textwidth}
+% 	 \centering{
+% 			\includegraphics[trim=130 11 130 29, clip, width=\textwidth]{loiNormA.png}}
+% 		\caption{lscaqlqélcjqwd}
+% \end{minipage}
+% \hfill
+% \begin{minipage}[t]{.49\textwidth}
+% 	 \centering{
+% 			\includegraphics[trim=130 10 130 30, clip, width=\textwidth]{loiNormB.png}}
+% 		\caption{Sudoku distribué lors de l'expérience 1}
+% \end{minipage}
+% \end{table}
+
 \begin{table}[h!]
 \centering
-\begin{minipage}[t]{.49\textwidth}
-	 \centering{
-			\includegraphics[trim=50 10 200 30, clip, width=\textwidth]{histA.png}} % gauche bas droite haut
-		\caption{Sudoku distribué lors de l'expérience 1}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{tikzpicture}
+	\begin{axis}[
+	x tick label style={
+		/pgf/number format/1000 sep=},
+	ylabel=Effectif,
+	enlargelimits=0.05,
+	legend style={at={(0.5,-0.1)},
+	anchor=north,legend columns=-1},
+	ybar interval=1,
+]
+\addplot 
+	coordinates {(5,6) (5.5,0) (6,1) (6.5,1) (7,0) (7.5,0) (8,3) (8.5,1) (9,1) (9.5,0) (10,3)};
+\legend{Men}
+\end{axis}
+\end{tikzpicture}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{.49\textwidth}
-	 \centering{
-			\includegraphics[trim=50 10 200 30, clip, width=\textwidth]{histB.png}}
-		\caption{Sudoku distribué lors de l'expérience 1}
+\begin{minipage}[t]{.45\textwidth}
+	
+
+\begin{tikzpicture}
+\begin{axis}[
+	x tick label style={
+		/pgf/number format/1000 sep=},
+	ylabel=Effectif,
+	enlargelimits=0.05,
+	legend style={at={(0.5,-0.1)},
+	anchor=north,legend columns=-1},
+	ybar interval=1,
+]
+\addplot 
+	coordinates {(5,6) (5.5,0) (6,1) (6.5,1) (7,0) (7.5,0) (8,3) (8.5,1) (9,1) (9.5,0) (10,3)};
+\legend{Men}
+\end{axis}
+\end{tikzpicture}
+
+
+		\caption{Histogramme représentant la répartition des participants en fonction du temps perçu lors de la partie B}
 \end{minipage}
 \end{table}
 
 \begin{table}[h!]
 \centering
-\begin{minipage}[t]{.49\textwidth}
-	 \centering{
-			\includegraphics[trim=133.5 10 130 26.5, clip, width=\textwidth]{loiNormA.png}}
-		\caption{Sudoku distribué lors de l'expérience 1}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{tikzpicture}
+	\begin{axis}[
+	    title={Résultats selon la loi normale centrée A},
+	    xlabel={Écart type [$\sigma$]},
+	    ylabel={},
+	    xmin=-1, xmax=3,
+	    ymin=0, ymax=0.22,
+	    xtick={-1,0,1,2,3},
+	    ytick={0,0.197},
+	    legend pos=north west,
+	    xmajorgrids=true,
+	    grid style=dashed,
+	]
+	\addplot[
+	    color=black,
+	    mark=*,
+	    ]
+	    table {data/loiNormA.dat};
+	\end{axis}
+	\end{tikzpicture}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{.49\textwidth}
-	 \centering{
-			\includegraphics[trim=130 10 130 30, clip, width=\textwidth]{loiNormB.png}}
-		\caption{Sudoku distribué lors de l'expérience 1}
+\begin{minipage}[t]{.45\textwidth}
+	\begin{tikzpicture}
+	\begin{axis}[
+	    title={Résultats selon la loi normale centrée B},
+	    xlabel={Écart type [$\sigma$]},
+	    ylabel={},
+	    xmin=-1.5, xmax=3,
+	    ymin=0, ymax=0.16,
+	    xtick={-1,0,1,2,3},
+	    ytick={0,0.154},
+	    legend pos=north west,
+	    xmajorgrids=true,
+	    grid style=dashed,
+	]
+	\addplot[
+	    color=black,
+	    mark=*,
+	    ]
+	    table {data/loiNormB.dat};
+	\end{axis}
+	\end{tikzpicture}
 \end{minipage}
 \end{table}
 
 les sigma c'est cool
-
-
 \clearpage
 
 \subsection{Expérience complémentaire} \label{ssec:exp2.2}
