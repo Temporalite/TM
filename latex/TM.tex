@@ -36,6 +36,7 @@
 % cmd + l, cmd + p : show all the commands
 % cmd + r : jump in the text (following structure)
 % cmd + number : jump to specified tab
+% cmd + maj + l, cmd + maj + l : Fill includegraphics | ref | cite | input | etc
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
@@ -346,7 +347,7 @@ Il est nécessaire de préparer un certain nombre de choses avant l'expérimenta
 \subsection{Analyse} \label{ssec:analyse1.1}
 
 \subsubsection{Analyse critique} \label{sssec:analyseCrit1.1}
-Avant d'analyser les résultats, il me parait utile de recenser les biais expérimentaux qui ont pu interférer avec cette expérience. Il est évidemment difficile de se prononcer à propos de leur impact sur les résultats mais il est néanmoins nécessaire de les répertorier pour considérer cette expérience de façon critique.
+Avant d'analyser les résultats, il me parait utile de recenser les biais qui ont pu interférer avec cette expérience. J'ai pris le parti de ne pas effectuer cela dans une partie située après les résultats et dédiée à la discussion, comme il est d'usage lors de travaux pratiques, car cette expérience n'a évidemment pas été réalisée dans le cadre éprouvé d'un cours; il est certain qu'elle pourrait être améliorée sous de nombreux aspects pour éliminer un maximum de biais. Bien qu'il soit sans conteste difficile de se prononcer à propos de leur impact sur les résultats, il est néanmoins nécessaire de les répertorier en premier lieu pour ensuite considérer l'analyse des résultats de façon critique.
 
 J'ai réalisé la première partie de l'expérience (vidéo ennuyante) avec ma classe lors d'un cours de biologie. Bien que je leur aie demandé personnellement s'il étaient d'accord d'y participer, certains élèves s'y sont peut-être sentis obligés et ont pu aborder l'expérience d'un point de vue négatif. Cela a peut être contribué au fait que le temps ait paru passer plus lentement.
 
@@ -382,11 +383,15 @@ Envisageons d'abord l'aspect général des résultats de cette expérience. Il e
 \caption{Histogrammes représentant la répartition des participants en fonction du temps perçu lors des deux parties de la première expérience.}
 \end{figure}
 
-Commençons par commenter l'histogramme de gauche. Il représente le groupe ayant participé à la partie A de l'expérience, ils ont été exposés à une vidéo ennuyante (cf. \emph{expérience complémentaire} page \pageref{ssec:exp2.2})
+Commençons par commenter l'histogramme de gauche. Il représente le groupe ayant participé à la partie A de l'expérience, il a été exposé à une vidéo ennuyante (cf. \emph{expérience complémentaire} page \pageref{ssec:exp2.2}). L'on remarque que la totalité de ses participants ont perçu le temps comme étant égal ou supérieur à 5 minutes. C'est justement cette limite inférieure qui a été perçue selon 6 sujets sur 16. Cette propotion dépassant les deux tiers des résultats, il est inutile de faire recours à une analyse statistique complexe pour déterminer qu'elle n'est pas issue du simple hasard. Cette constatation mène ensuite à l'examen de deux pistes pouvant expliquer cette situation.
+
+La durée de cette expérience était-elle mal choisie ? Nous pouvons en premier lieu nous demander s'il était judicieux de projeter une vidéo d'environ 5 minutes. Comme nous l'avons mentionné dans la partie précédente de cette analyse, cela est probablement dû à une estimation temporelle approximative. Bien qu'il leur ait été demandé d'indiquer leur réponse en minutes\footnote{Une échelle temporelle plus courte n'aurait pas eu de sens compte tenu de l'imprécision inhérente au processus de la perception temporelle.}, ces participants ont potentiellement découpé leur estimation selon une échelle supérieure. Ces fameuses 5 minutes seraient dans ce cas-là une durée par défaut, dont la restitution s'expliquerait par un traitement sémantique du temps écoulé. Ce nombre particulier perdrait alors sa valeure mathématique pour ne plus être qu'une simple expression fixée par l'usage \cite{durand1970}.
+
+Les participants ont-ils été capables de juger correctement le temps écoulé ?
 
 considérer les valeurs extrêmes récoltées lors de l'expérience. Bien qu'elle ne soient que peu utiles pour déterminer si l'on peut rejeter l'hypothèse nulle (à savoir : l'expérience n'a aucun effet sur la perception temporelle des participants), elle sont utiles pour déterminer l'état d'esprit des participants. Elles nous renseignent en effet sur les divergences les plus fortes et indiquent 
 
-variance pas interessante (pas la meme unité)
+variance pas interessante (pas la meme unité) 
 % Il est intéressant de constater qu'en moyenne, les temps perçus sont supérieurs à la durée réelle de l'expérience. Il y a cependant une différence entre les deux; il apparait que le temps a semblé passer plus lentement lorsque la vidéo ennuyante a été projetée. Cette dernière à en effet causé une différence de 35 \% par rapport au temps de référence. La vidéo intéressante provoque quant à elle une augmentation de 9,7 \% du temps perçu par rapport à sa durée réelle.
 
 % Il y donc une différence de 25,3 \% entre les deux temps perçus. Nous avons précédemment discuté des biais pouvant affecter ce résultat, il est donc à considérer avec prudence.
@@ -515,7 +520,7 @@ variance pas interessante (pas la meme unité)
 % \end{minipage}
 % \end{table}
 
-les sigma c'est cool
+les sigma c'est cool $\sigma$
 \clearpage
 
 \subsection{Expérience complémentaire} \label{ssec:exp2.2}
@@ -711,7 +716,7 @@ Le logiciel en question est disponible aux adresses suivantes :
 Références non présentes dans le texte mais qu'il faudra bien placer un jour : \cite{ref1} \cite{vidnul} \cite{vidcool} \cite{imgtitre} \cite{imgheader1} \cite{analysedonnees}
 
 \begin{remark}
-	Les images et autres ressources issues d'internet utilisées dans ce travail ne sont, sauf indication contraire, pas restreintes d'usage pour une utilisation non commerciale.
+	Les images et autres ressources issues d'internet utilisées dans ce travail ne sont, sauf indication contraire, pas restreintes d'usage pour une utilisation non commerciale. PARLER PLUTOT DU DROIT DE CITATION !!!
 \end{remark}
 
 \section*{Livres}
