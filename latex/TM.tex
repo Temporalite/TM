@@ -659,20 +659,28 @@ Essayons dans un premier temps de nous faire une idée générale de la réparti
 		\includegraphics[trim= 120 10 20 20, clip, width=\textwidth]{diff.png}}% gauche bas droite haut
 	\caption{Répartition des résultats en comparant la différence moyenne du temps produit avec le temps visé. La dernière barre du bas est coupée car elle s'etend jusqu'à 6,5 secondes. Elle n'est donc pas incluse pour permettre une meilleure lecture des barres de moindre importance.}
 \end{figure}
+Ce graphique est intéressant sous plusieurs aspects. Bien que les résultats soient répartis de chaque côté de la valeur de référence, l'on remarque tout de même que l'écart positif est plus important que son pendant négatif. La distribution n'est en effet pas homogène, l'on constate qu'environ 43\% des temps perçus sont négatifs. Les 57\% restants sont alors positifs, cela ne semble pas très important comme différence mais tous les écarts ne valent pas la même durés.
 
 \begin{table}[h!]
 	\centering
-	\caption{Analyse des résultats de l'expérience 2 (avec Louis)} \label{tbl:analyse2.2}
+	\caption{Répartition des résultats de l'expérience 2 (en prenant compte les valeurs aberrantes)} \label{tbl:analyse2.2}
 	\begin{tabular}{lrr}
 		\toprule 
 		\textbf{En fonction de $\Delta$ tmoy} & \textbf{Avec Louis [s]} & \textbf{Sans Louis [s]} \\ \midrule
-		Différence médiane & 0,18 & 0,13 \\
-		Différence moyenne & 0,76 & 0,33 \\
 		Valeur maximale & 6,44 & 1,74 \\
-		Valeur minimale & -1,20 & -1,20 \\ 
+		Valeur minimale & -1,20 & -1,20 \\
+		Médiane ensemble négatif & -0,39 & -0,39 \\
+		Médiane ensemble positif & 1,24 & 1,00 \\
+		Médiane & 0,18 & 0,13 \\
 		\'Ecart type & 1,87 & 0,94 \\ \bottomrule
 	\end{tabular}
 \end{table}
+
+Pour structurer cela, comparons les valeurs médianes des ensembles positifs et négatifs. Puisqu'elles sont plus robustes face aux résultats extrêmes, elles nous procurent des informations utiles dans cette comparaison. La médiane de l'ensemble négatif est égale à -0,39 secondes. Elle est effectivement plus petite que la médiane positive qui vaut 1 ou 1,24 selon si l'on compte le résultat de Louis. Le temps perçu après avoir effectué une activité sportive semble ainsi passer légèrement plus lentement puisque les sujets comptent jusqu'à dix en plus de temps qu'il n'en faut. Alors, pourquoi compte-t-on légèrement plus lentement après avoir fait du sport ? Je trouve ce résultats paradoxal car j'estimmais que l'accélération du rythme cardio-vasculaire aurait une sorte d'impact sur notre relation avec le temps. Je pensais que nos rythmes internes seraient aussi accélérés et que cela aurait pour conséquence une production temporelle accélérée. Cette situation me rend ainsi perplexe car je me demande quelles peuvent être les causes de ce ralentissement.
+
+Peut-être est la cause d'un biais
+
+Peut être à cause du changement de rythme --> agité, échauffé --> de nouveau calme
 
 \newpage
 \section{Réponse à la problématique} \label{sec:reponseProb}
