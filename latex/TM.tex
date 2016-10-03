@@ -517,7 +517,7 @@ Il est demandé à cet effet à des volontaires de se relaxer puis de faire de l
 Cette expérience ne requière que peu de matériel pour sa réalisation.
 
 \begin{description}
-	\item[Une trentaine de participants] L'expérience se déroule par petit groupes, selon la place disponible.
+	\item[Une quinzaine de participants] Puisque l'essai utilise les sujets comme leur propre témoin, l'expérience nécessite moins de personne que s'ils étaient comparés à un groupe différent. L'expérience se déroule par petit groupes, selon la place disponible.
 	\item[Une salle] Elle doit être pourvue d'un espace libre pour y effectuer une activité physique et ne doit fournir aucune indication temporelle; les horloges sont démontées, l'ordinateur de la classe et le projecteur sont éteints. Elle doit être assez grande pour la diviser en deux zones : une partie où l'on attend puis où l'on fait du sport et une autre où le sens du temps est testé. Cela évite qu'une personne en train de compter ne fournisse une durée de référence aux autres participants et qu'elle ne soit elle même perturbée par leur activité. 
 	\item[Des cordes à sauter] Elles sont le moyen le plus simple faire effectuer des exercices aux volontaires, c'est un outil qui permet de produire un effort cardiovasculaire de façon efficace losque l'on dispose de peu d'espace pour faire du sport.
 	\item[Un ordinateur] Dans le but d'atteindre la meilleure précision, les participants sont chargés de chronométrer eux-même le temps qu'il leur est demandé de produire. Il est par conséquent indispensable que l'outil utilisé n'affiche pas le temps compté. Une solution à ce problème est de placer un bout de scotch sur l'écran d'un chronomètre et de l'enlever lorsque l'on souhaite reporter le résultat dans un tableau. Cette astuce n'est cependant pas pratique car il faut à chaque fois replacer le masque, le scotch laisse des résidus de colle sur l'instrument et les relevés manuels des performances induisent un risque d'erreur lors de la copie. Pour éviter ces désagréments et être plus efficace lors de l'expérience, j'ai jugé utile d'utiliser une application pour chronométrer les participants. J'ai ainsi profité d'un forum sur lequel il est possible de demander à des developpeurs de programmer des logiciels selon des besoins spécifiques. Compte tenu de mon manque total de connaissance en programmation, un bienfaiteur anonyme répondant au nom de NoG5\footnote{\url{https://www.reddit.com/user/NoG5} sur le forum dédié aux requête relatives à la programmation \url{https://www.reddit.com/r/programmingrequests/}} m'a offert un outil très efficace en implémentant l'interface que je lui ai proposée. Ce logiciel permet d'enregistrer les résultats ainsi que les noms des participants dans un format qu'il est aisé de porter dans un tableur (voir page \pageref{sec:chrono}).
@@ -564,10 +564,10 @@ Cette expérience ne requière que peu de matériel pour sa réalisation.
 	\begin{tabular}{lr}
 		\toprule 
 		\textbf{En fonction de la différence de temps} & \textbf{secondes [s]} \\ \midrule
-		différence médiane & 0,93 \\
-		différence moy & 0,97 \\
-		valeur maximale & 1,65 \\
-		valeur minimale & 0,42 \\ \bottomrule
+		Valeur maximale & 1,65 \\
+		Valeur minimale & 0,42 \\
+		Différence moyenne & 0,97 \\
+		Différence médiane & 0,93 \\ \bottomrule
 	\end{tabular}
 \end{table}
 
@@ -577,6 +577,8 @@ Cette expérience à petite échelle a été réalisée dans le but de mettre à
 En premier lieu, il faut prendre garde au nombre de personnes qui participent en même temps à l'expérience. Il est très important ne faire participer que de petits groupes pour éviter qu'ils ne fassent la queue trop longtemps avant de pouvoir chronométrer leur premier temps, la suite de l'expérience n'en est d'ailleurs que facilitée car les sujets ont plus de place pour s'échauffer avec leur corde à sauter. Ils profitent aussi de ce faible effectif au moment de chronométrer leur temps pour la deuxième fois puisqu'ils ne doivent pas attendre.
 
 \subsubsection{Analyse des résultats} \label{sssec:analyseResult2.1}
+Il est indispensable de relever le temps deux fois de suite pour produire de meileurs résultats. La différence entre les temps produits lors des parties normales et échauffées étant environ égale à la seconde, les imprécisions inhérentes à la production de durées peuvent fausser les résultats. Pour réduire ce biais, il me parait imortant de doubler les résultats pour effectuer une moyenne. Cela permet aussi de déterminer la précision propore à chaque individu et offre une piste pour déterminer la source d'un écart entre les deux phases de l'expérience. D'après cet échantillon de personnes, les extremums sont effectivement très proches. À peine moins d'une seconde et demi les sépare. Cela signifie que les résultats qui seront obtenus à l'expérience 2 seront aussi probablement serrés. D'ailleurs, la moyenne et la médiane sont presque identique, ce qui me laisse penser que les réponses sont 
+
 % CHERCHER COMBIEN DE TEMPS IL FAUT POUR SE REPOSER D'UN EFFORT PHYSIQUE !!!!
 % effet psychologique => 2 mesures
 
@@ -595,16 +597,24 @@ En premier lieu, il faut prendre garde au nombre de personnes qui participent en
 
 \begin{table}[h]
 	\centering
-	\caption{Résultats de l'expérience 2} \label{tbl:exp2.2}
+	\caption{Résultats de l'expérience 2 (les résultats entre parenthèse sont )} \label{tbl:exp2.2}
 	\begin{tabular}{lrlrlr}
 		\toprule
-		\textbf{Nom} &  \multicolumn{2}{c}{\textbf{Tmoy 1 [s]}}  & \multicolumn{2}{c}{\textbf{Tmoy 2 [s]}} & \textbf{$\Delta$ Tmoy [s]} \\ \midrule
+		\textbf{Nom} &  \multicolumn{2}{c}{\textbf{Tmoyen 1 [s]}}  & \multicolumn{2}{c}{\textbf{Tmoyen 2 [s]}} & \textbf{$\Delta$ Tmoyen [s]} \\ \midrule
+		Alice & 9,42 & (8,61 \& 10,23) & 10,90 & (10,56 \& 11,24) & 1,48 \\
 		Aurélien & 9,69 & (10,11 \& 9,27) & 11,33 & (11,78 \& 10,88) & 1,64 \\
 		Célia & 10,42 & (10,79 \& 10,06) & 10,65 & (10,08 \& 11,22) & 0,23 \\
 		Damien & 7,69 & (7,28 \& 8,10) & 8,69 & (9,13 \& 8,24) & 1,00 \\
+		Eloi & 9,73 & (10,37 \& 9,08) & 11,46 & (12,86 \& 10,07) & 1,74 \\
+		Henry & 8,90 & (9,03 \& 8,78) & 9,03 & (8,73 \& 9,33) & 0,13 \\
+		Jeanne & 9,57 & (9,74 \& 9,40) & 10,48 & (10,52 \& 10,44) & 0,91 \\
+		Khaled & 7,85 & (7,83 \& 7,87) & 7,54 & (7,65 \& 7,44) & -0,30 \\
 		Léana & 9,50 & (9,41 \& 9,59) & 8,90 & (9,34 \& 8,45) & -0,61 \\
+		Loïs & 9,61 & (9,82 \& 9,41) & 8,42 & (8,51 \& 8,32) & -1,20 \\
 		Louis & 10,91 & (9,17 \& 12,66) & 17,36 & (18,93 \& 15,79) & 6,44 \\
-		Nils & 10,54 & (11,03 \& 10,05) & 10,28 & (10,35 \& 10,21) & -0,26 \\ \bottomrule
+		Louis 2 & 11,19 & (10,50 \& 11,89) & 10,72 & (12,09 \& 9,36) & -0,47 \\
+		Minh-Tam & 10,05 & (10,30 \& 9,81) & 10,01 & (9,17 \& 10,85) & -0,04 \\
+		Nils & 10,54 & (11,03 \& 10,05) & 10,28 & (10,35 \& 10,35) & -0,26 \\ \bottomrule
 	\end{tabular}
 \end{table}
 
@@ -620,11 +630,11 @@ En premier lieu, il faut prendre garde au nombre de personnes qui participent en
 	\begin{tabular}{lrr}
 		\toprule 
 		\textbf{En fonction de $\Delta$ tmoy} & \textbf{Avec Louis [s]} & \textbf{Sans Louis [s]} \\ \midrule
-		Différence médiane & 0,61 & 0,23 \\
-		Différence moyenne & 1,41 & 0,40 \\
-		Valeur maximale & 6,44 & 1,64 \\
-		Valeur minimale & -0,61 & -0,61 \\ 
-		\'Ecart type & & \\ \bottomrule
+		Différence médiane & 0,18 & 0,13 \\
+		Différence moyenne & 0,76 & 0,33 \\
+		Valeur maximale & 6,44 & 1,74 \\
+		Valeur minimale & -1,20 & -1,20 \\ 
+		\'Ecart type & 1,87 & 0,94 \\ \bottomrule
 	\end{tabular}
 \end{table}
 
